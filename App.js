@@ -27,13 +27,15 @@ import AlignItemsDemo from "./src/02_flex/AlignItemsDemo";
 import AlignSelfDemo from "./src/02_flex/AlignSelfDemo";
 import FlexDemo from "./src/02_flex/FlexDemo";
 import PositionDemo from "./src/02_flex/PositionDemo";
-//import ComicMain from "./src/02_flex/ComicMain";
+
+import GridDemo from "./src/02_flex/GridDemo";
+import ComicMainDemo from "./src/02_flex/ComicMainDemo";
 //import Login from "./src/02_flex/Login";
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <FlexDemo />
+            <ComicMainDemo />
         );
     }
 }
