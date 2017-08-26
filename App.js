@@ -30,12 +30,14 @@ import PositionDemo from "./src/02_flex/PositionDemo";
 
 import GridDemo from "./src/02_flex/GridDemo";
 import ComicMainDemo from "./src/02_flex/ComicMainDemo";
-//import Login from "./src/02_flex/Login";
+
+import PropsDemo from "./src/03_props_state_lifecycle/PropsDemo";
+
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <ComicMainDemo />
+            <PropsDemo />
         );
     }
 }
