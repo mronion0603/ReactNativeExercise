@@ -32,12 +32,13 @@ import GridDemo from "./src/02_flex/GridDemo";
 import ComicMainDemo from "./src/02_flex/ComicMainDemo";
 
 import PropsDemo from "./src/03_props_state_lifecycle/PropsDemo";
+import StateDemo from "./src/03_props_state_lifecycle/StateDemo";
 
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <PropsDemo />
+            <StateDemo />
         );
     }
 }
