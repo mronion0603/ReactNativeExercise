@@ -33,12 +33,14 @@ import ComicMainDemo from "./src/02_flex/ComicMainDemo";
 
 import PropsDemo from "./src/03_props_state_lifecycle/PropsDemo";
 import StateDemo from "./src/03_props_state_lifecycle/StateDemo";
+import LifecycleDemo from "./src/03_props_state_lifecycle/LifecycleDemo";
+import LifecycleDemo2 from "./src/03_props_state_lifecycle/LifecycleDemo2";
 
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <StateDemo />
+            <LifecycleDemo />
         );
     }
 }
