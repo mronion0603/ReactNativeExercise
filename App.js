@@ -36,11 +36,13 @@ import StateDemo from "./src/03_props_state_lifecycle/StateDemo";
 import LifecycleDemo from "./src/03_props_state_lifecycle/LifecycleDemo";
 import LifecycleDemo2 from "./src/03_props_state_lifecycle/LifecycleDemo2";
 
+import FetchNetDataDemo from "./src/04_network/FetchNetDataDemo";
+import XMLHttpRequestDemo from "./src/04_network/XMLHttpRequestDemo";
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <LifecycleDemo />
+            <XMLHttpRequestDemo />
         );
     }
 }
