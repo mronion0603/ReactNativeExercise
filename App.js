@@ -19,7 +19,6 @@ import ViewDemo from "./src/01_componts/ViewDemo";
 import TextDemo from "./src/01_componts/TextDemo";
 import CompontsTest from "./src/01_componts/CompontsTest";
 
-//import FlexDiceTest from "./src/02_flex/FlexDiceTest";
 import FlexDirectionDemo from "./src/02_flex/FlexDirectionDemo";
 import FlexWrapDemo from "./src/02_flex/FlexWrapDemo";
 import JustifyContentDemo from "./src/02_flex/JustifyContentDemo";
@@ -39,10 +38,12 @@ import LifecycleDemo2 from "./src/03_props_state_lifecycle/LifecycleDemo2";
 import FetchNetDataDemo from "./src/04_network/FetchNetDataDemo";
 import XMLHttpRequestDemo from "./src/04_network/XMLHttpRequestDemo";
 
+import StackMainScreen from "./src/05_navigation/stacknavigation/StackMainScreen";
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <XMLHttpRequestDemo />
+            <StackMainScreen />
         );
     }
 }
