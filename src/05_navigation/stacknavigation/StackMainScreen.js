@@ -24,9 +24,15 @@ class StackMainScreen extends React.Component {
     }
 }
 
-const SimpleApp = StackNavigator({
-    Home: { screen: StackMainScreen },
-    Chat: { screen: ChatScreen },
-});
+const SimpleApp = StackNavigator(
+    {
+       Home: { screen: StackMainScreen },
+       Chat: { screen: ChatScreen },
+     },
+    {
+       mode: 'card',
+       headerMode:'screen',
+     }
+);
 
 export default SimpleApp;

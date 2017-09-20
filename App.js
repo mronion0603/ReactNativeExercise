@@ -39,11 +39,13 @@ import FetchNetDataDemo from "./src/04_network/FetchNetDataDemo";
 import XMLHttpRequestDemo from "./src/04_network/XMLHttpRequestDemo";
 
 import StackMainScreen from "./src/05_navigation/stacknavigation/StackMainScreen";
+import TabMainScreen from "./src/05_navigation/tabnavigation/TabMainScreen";
+import DrawerMainScreen from "./src/05_navigation/drawernavigation/DrawerMainScreen";
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <StackMainScreen />
+            <DrawerMainScreen />
         );
     }
 }
