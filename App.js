@@ -41,11 +41,13 @@ import XMLHttpRequestDemo from "./src/04_network/XMLHttpRequestDemo";
 import StackMainScreen from "./src/05_navigation/stacknavigation/StackMainScreen";
 import TabMainScreen from "./src/05_navigation/tabnavigation/TabMainScreen";
 import DrawerMainScreen from "./src/05_navigation/drawernavigation/DrawerMainScreen";
+import MyStackNavigation from "./src/05_navigation/nestingnavigators/MyStackNavigation";
+import MyDrawerNavigation from "./src/05_navigation/nestingnavigators2/MyDrawerNavigation";
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <DrawerMainScreen />
+            <MyDrawerNavigation />
         );
     }
 }
