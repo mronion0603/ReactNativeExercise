@@ -11,23 +11,37 @@ import SecondScreen from "./SecondScreen";
 import { TabNavigator } from "react-navigation";
 
 class TabMainScreen extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     static navigationOptions = {
         tabBarLabel: 'Home',
-        // Note: By default the icon is only shown on iOS. Search the showIcon option below.
+        headerTitle:'Main',
         tabBarIcon: ({ tintColor }) => (
             <Image
                 source={require('../../images/color_for_danmu_normal.png')}
                 style={[styles.icon, {tintColor: tintColor}]}
             />
         ),
+
     };
 
     render() {
         return (
-            <Button
-                onPress={() => this.props.navigation.navigate('Second')}
-                title="Go to Second"
-            />
+            <View style={{ backgroundColor: "#fff", flex: 1, padding: 20}}>
+                <Button
+                    onPress={() => this.props.navigation.navigate('Third',{ user: 'Lucy' })}
+                    title="Go to Third"
+                />
+                <View style={{ backgroundColor: "#fff", height: 20}}/>
+                <Button
+                    onPress={() => this.props.navigation.navigate('Second')}
+                    title="Go to Second"
+                />
+            </View>
+
         );
     }
 }
