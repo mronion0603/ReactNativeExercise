@@ -44,10 +44,13 @@ import DrawerMainScreen from "./src/05_navigation/drawernavigation/DrawerMainScr
 import MyStackNavigation from "./src/05_navigation/nestingnavigators/MyStackNavigation";
 import MyDrawerNavigation from "./src/05_navigation/nestingnavigators2/MyDrawerNavigation";
 
+import SwiperDemo from "./src/06_swiper/SwiperDemo";
+import SwiperDemo2 from "./src/06_swiper/SwiperDemo2";
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <MyDrawerNavigation />
+            <SwiperDemo2 />
         );
     }
 }
