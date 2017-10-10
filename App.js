@@ -47,10 +47,11 @@ import MyDrawerNavigation from "./src/05_navigation/nestingnavigators2/MyDrawerN
 import SwiperDemo from "./src/06_swiper/SwiperDemo";
 import SwiperDemo2 from "./src/06_swiper/SwiperDemo2";
 
+import RefreshControlDemo from "./src/07_refreshcontrol/RefreshControlDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <SwiperDemo2 />
+            <RefreshControlDemo />
         );
     }
 }
