@@ -2,14 +2,7 @@ import React, { Component } from 'react';
 import {
     AppRegistry,
 } from 'react-native';
-// import { StackNavigator,TabNavigator  } from 'react-navigation';
-// import ChatScreen from "./src/day_03_navigation/ChatScreen";
-// import MainScreen from "./src/day_03_navigation/MainScreen";
-//
-// const ExerciseProject  = StackNavigator({
-//     Home: { screen: MainScreen },
-//     Chat: { screen: ChatScreen },
-// });
+
 import SectionListDemo from "./src/01_componts/SectionListDemo";
 import FlatListDemo from "./src/01_componts/FlatListDemo";
 import ScrollViewDemo from "./src/01_componts/ScrollViewDemo";
@@ -48,10 +41,15 @@ import SwiperDemo from "./src/06_swiper/SwiperDemo";
 import SwiperDemo2 from "./src/06_swiper/SwiperDemo2";
 
 import RefreshControlDemo from "./src/07_refreshcontrol/RefreshControlDemo";
+import RefreshControlFlatListDemo from "./src/07_refreshcontrol/RefreshControlFlatListDemo";
+import LoadMoreDemo from "./src/07_refreshcontrol/LoadMoreDemo";
+import ActivityIndicatorDemo from "./src/07_refreshcontrol/ActivityIndicatorDemo";
+
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <RefreshControlDemo />
+            <LoadMoreDemo />
         );
     }
 }

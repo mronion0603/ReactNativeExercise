@@ -35,14 +35,16 @@ export default class RefreshControlDemo extends Component {
             return <ListRowComponent key={indexKey} data={row}/>;
         });
         return (
-            <ScrollView style={styles.scrollview} refreshControl={
+            <ScrollView
+                style={styles.scrollview}
+                refreshControl={
                 <RefreshControl
                     refreshing={this.state.isRefreshing}
                     onRefresh={this.onRefresh.bind(this)}  //(()=>this.onRefresh)或者通过bind来绑定this引用来调用方法
                     tintColor='red'
                     title= {this.state.isRefreshing? '刷新中....':'下拉刷新'}
                 />
-            }>
+                }>
                 {rows}
             </ScrollView>
         );

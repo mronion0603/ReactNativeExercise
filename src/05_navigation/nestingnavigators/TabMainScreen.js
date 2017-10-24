@@ -56,7 +56,8 @@ const TabMainScreenNavigator = TabNavigator(
         animationEnabled: true,
         tabBarOptions: {
             activeTintColor: '#e91e63',
-            showIcon:'true'
+            showIcon:'true',
+            indicatorStyle: { height: 0 },
         },
     }
 );
