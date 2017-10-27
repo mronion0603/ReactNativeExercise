@@ -45,11 +45,13 @@ import RefreshControlFlatListDemo from "./src/07_refreshcontrol/RefreshControlFl
 import LoadMoreDemo from "./src/07_refreshcontrol/LoadMoreDemo";
 import ActivityIndicatorDemo from "./src/07_refreshcontrol/ActivityIndicatorDemo";
 
-
+import WebViewSimpleDemo from "./src/08_webview/WebViewSimpleDemo";
+import WebViewLocalDemo from "./src/08_webview/WebViewLocalDemo";
+import WebViewCommunication from "./src/08_webview/WebViewCommunication";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <LoadMoreDemo />
+            <WebViewCommunication />
         );
     }
 }
