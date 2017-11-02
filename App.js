@@ -48,10 +48,15 @@ import ActivityIndicatorDemo from "./src/07_refreshcontrol/ActivityIndicatorDemo
 import WebViewSimpleDemo from "./src/08_webview/WebViewSimpleDemo";
 import WebViewLocalDemo from "./src/08_webview/WebViewLocalDemo";
 import WebViewCommunication from "./src/08_webview/WebViewCommunication";
+
+import PickerDemo from "./src/09_picker/PickerDemo";
+import SwitchDemo from "./src/09_picker/SwitchDemo";
+import SliderDemo from "./src/09_picker/SliderDemo";
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <WebViewCommunication />
+            <PickerDemo />
         );
     }
 }
