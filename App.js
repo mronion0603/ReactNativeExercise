@@ -53,10 +53,11 @@ import PickerDemo from "./src/09_picker/PickerDemo";
 import SwitchDemo from "./src/09_picker/SwitchDemo";
 import SliderDemo from "./src/09_picker/SliderDemo";
 
+import AsyncStorageDemo from "./src/10_storage/AsyncStorageDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <PickerDemo />
+            <AsyncStorageDemo />
         );
     }
 }
