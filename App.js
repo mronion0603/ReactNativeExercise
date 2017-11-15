@@ -54,10 +54,11 @@ import SwitchDemo from "./src/09_picker/SwitchDemo";
 import SliderDemo from "./src/09_picker/SliderDemo";
 
 import AsyncStorageDemo from "./src/10_storage/AsyncStorageDemo";
+import SQLiteDemo from "./src/10_storage/SQLiteDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <AsyncStorageDemo />
+            <SQLiteDemo />
         );
     }
 }
