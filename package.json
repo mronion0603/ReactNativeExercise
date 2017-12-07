@@ -13,7 +13,8 @@
     "react-native-sqlite-storage": "^3.3.3",
     "react-native-swiper": "^1.5.9",
     "react-native-tab-navigator": "^0.3.3",
-    "react-navigation": "^1.0.0-beta.11"
+    "react-navigation": "^1.0.0-beta.11",
+    "realm": "^2.0.7"
   },
   "devDependencies": {
     "babel-jest": "20.0.3",
