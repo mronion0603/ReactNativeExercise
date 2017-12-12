@@ -59,10 +59,14 @@ import RealmDemo from "./src/10_storage/RealmDemo";
 
 import DimensionsDemo from "./src/11_api/DimensionsDemo";
 import PixelRatioDemo from "./src/11_api/PixelRatioDemo";
+import AlertDemo from "./src/11_api/AlertDemo";
+import AppStateDemo from "./src/11_api/AppStateDemo";
+import NetInfoDemo from "./src/11_api/NetInfoDemo";
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <PixelRatioDemo />
+            <AppStateDemo />
         );
     }
 }
