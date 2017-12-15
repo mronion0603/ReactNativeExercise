@@ -62,11 +62,12 @@ import PixelRatioDemo from "./src/11_api/PixelRatioDemo";
 import AlertDemo from "./src/11_api/AlertDemo";
 import AppStateDemo from "./src/11_api/AppStateDemo";
 import NetInfoDemo from "./src/11_api/NetInfoDemo";
-
+import GeolocationDemo from "./src/11_api/GeolocationDemo";
+import KeyboardDemo from "./src/11_api/KeyboardDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <AppStateDemo />
+            <KeyboardDemo />
         );
     }
 }
