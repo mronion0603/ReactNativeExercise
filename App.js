@@ -64,10 +64,13 @@ import AppStateDemo from "./src/11_api/AppStateDemo";
 import NetInfoDemo from "./src/11_api/NetInfoDemo";
 import GeolocationDemo from "./src/11_api/GeolocationDemo";
 import KeyboardDemo from "./src/11_api/KeyboardDemo";
+import ToastAndroidDemo from "./src/11_api/ToastAndroidDemo";
+import BackHandlerDemo from "./src/11_api/BackHandlerDemo";
+import AlertIOSDemo from "./src/11_api/AlertIOSDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <KeyboardDemo />
+            <AlertIOSDemo />
         );
     }
 }
