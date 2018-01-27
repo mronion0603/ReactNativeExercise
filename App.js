@@ -59,18 +59,19 @@ import RealmDemo from "./src/10_storage/RealmDemo";
 
 import DimensionsDemo from "./src/11_api/DimensionsDemo";
 import PixelRatioDemo from "./src/11_api/PixelRatioDemo";
-import AlertDemo from "./src/11_api/AlertDemo";
 import AppStateDemo from "./src/11_api/AppStateDemo";
 import NetInfoDemo from "./src/11_api/NetInfoDemo";
 import GeolocationDemo from "./src/11_api/GeolocationDemo";
 import KeyboardDemo from "./src/11_api/KeyboardDemo";
 import ToastAndroidDemo from "./src/11_api/ToastAndroidDemo";
 import BackHandlerDemo from "./src/11_api/BackHandlerDemo";
+import AlertDemo from "./src/11_api/AlertDemo";
 import AlertIOSDemo from "./src/11_api/AlertIOSDemo";
+import AlertModalDemo from "./src/11_api/AlertModalDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <AlertIOSDemo />
+            <AlertModalDemo />
         );
     }
 }
