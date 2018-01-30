@@ -68,10 +68,12 @@ import BackHandlerDemo from "./src/11_api/BackHandlerDemo";
 import AlertDemo from "./src/11_api/AlertDemo";
 import AlertIOSDemo from "./src/11_api/AlertIOSDemo";
 import AlertModalDemo from "./src/11_api/AlertModalDemo";
+
+import ToastModuleAndroidDemo from "./src/12_nativeapi/ToastModuleAndroidDemo";
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <AlertModalDemo />
+            <ToastModuleAndroidDemo />
         );
     }
 }

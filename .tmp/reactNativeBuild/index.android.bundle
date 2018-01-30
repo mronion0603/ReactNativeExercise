@@ -1372,6 +1372,58 @@ var _ActivityIndicatorDemo = require(430                                        
 
 var _ActivityIndicatorDemo2 = babelHelpers.interopRequireDefault(_ActivityIndicatorDemo);
 
+var _WebViewSimpleDemo = require(431                                 ); // 431 = ./src/08_webview/WebViewSimpleDemo
+
+var _WebViewSimpleDemo2 = babelHelpers.interopRequireDefault(_WebViewSimpleDemo);
+
+var _WebViewLocalDemo = require(432                                ); // 432 = ./src/08_webview/WebViewLocalDemo
+
+var _WebViewLocalDemo2 = babelHelpers.interopRequireDefault(_WebViewLocalDemo);
+
+var _WebViewCommunication = require(434                                    ); // 434 = ./src/08_webview/WebViewCommunication
+
+var _WebViewCommunication2 = babelHelpers.interopRequireDefault(_WebViewCommunication);
+
+var _PickerDemo = require(436                         ); // 436 = ./src/09_picker/PickerDemo
+
+var _PickerDemo2 = babelHelpers.interopRequireDefault(_PickerDemo);
+
+var _SwitchDemo = require(437                         ); // 437 = ./src/09_picker/SwitchDemo
+
+var _SwitchDemo2 = babelHelpers.interopRequireDefault(_SwitchDemo);
+
+var _SliderDemo = require(438                         ); // 438 = ./src/09_picker/SliderDemo
+
+var _SliderDemo2 = babelHelpers.interopRequireDefault(_SliderDemo);
+
+var _AsyncStorageDemo = require(439                                ); // 439 = ./src/10_storage/AsyncStorageDemo
+
+var _AsyncStorageDemo2 = babelHelpers.interopRequireDefault(_AsyncStorageDemo);
+
+var _SQLiteDemo = require(440                          ); // 440 = ./src/10_storage/SQLiteDemo
+
+var _SQLiteDemo2 = babelHelpers.interopRequireDefault(_SQLiteDemo);
+
+var _RealmDemo = require(444                         ); // 444 = ./src/10_storage/RealmDemo
+
+var _RealmDemo2 = babelHelpers.interopRequireDefault(_RealmDemo);
+
+var _DimensionsDemo = require(466                          ); // 466 = ./src/11_api/DimensionsDemo
+
+var _DimensionsDemo2 = babelHelpers.interopRequireDefault(_DimensionsDemo);
+
+var _PixelRatioDemo = require(467                          ); // 467 = ./src/11_api/PixelRatioDemo
+
+var _PixelRatioDemo2 = babelHelpers.interopRequireDefault(_PixelRatioDemo);
+
+var _AlertDemo = require(468                     ); // 468 = ./src/11_api/AlertDemo
+
+var _AlertDemo2 = babelHelpers.interopRequireDefault(_AlertDemo);
+
+var _AppStateDemo = require(469                        ); // 469 = ./src/11_api/AppStateDemo
+
+var _AppStateDemo2 = babelHelpers.interopRequireDefault(_AppStateDemo);
+
 var ExerciseProject = function (_Component) {
     babelHelpers.inherits(ExerciseProject, _Component);
 
@@ -1383,10 +1435,10 @@ var ExerciseProject = function (_Component) {
     babelHelpers.createClass(ExerciseProject, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_LoadMoreDemo2.default, {
+            return _react2.default.createElement(_AppStateDemo2.default, {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 52
+                    lineNumber: 68
                 }
             });
         }
@@ -65578,6 +65630,4482 @@ var styles = _reactNative.StyleSheet.create({
     }
 });
 }, 430, null, "ExerciseProject/src/07_refreshcontrol/ActivityIndicatorDemo.js");
+__d(/* ExerciseProject/src/08_webview/WebViewSimpleDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\08_webview\\WebViewSimpleDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var WebViewSimpleDemo = function (_Component) {
+    babelHelpers.inherits(WebViewSimpleDemo, _Component);
+
+    function WebViewSimpleDemo() {
+        babelHelpers.classCallCheck(this, WebViewSimpleDemo);
+        return babelHelpers.possibleConstructorReturn(this, (WebViewSimpleDemo.__proto__ || Object.getPrototypeOf(WebViewSimpleDemo)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(WebViewSimpleDemo, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(_reactNative.WebView, {
+                source: { uri: 'http://blog.csdn.net/column/details/17061.html' },
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 7
+                }
+            });
+        }
+    }]);
+    return WebViewSimpleDemo;
+}(_react.Component);
+
+exports.default = WebViewSimpleDemo;
+}, 431, null, "ExerciseProject/src/08_webview/WebViewSimpleDemo.js");
+__d(/* ExerciseProject/src/08_webview/WebViewLocalDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\08_webview\\WebViewLocalDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var WebViewSimpleDemo = function (_Component) {
+    babelHelpers.inherits(WebViewSimpleDemo, _Component);
+
+    function WebViewSimpleDemo() {
+        babelHelpers.classCallCheck(this, WebViewSimpleDemo);
+        return babelHelpers.possibleConstructorReturn(this, (WebViewSimpleDemo.__proto__ || Object.getPrototypeOf(WebViewSimpleDemo)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(WebViewSimpleDemo, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(_reactNative.WebView, {
+                source: require(433                ), // 433 = ./helloworld.html
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 7
+                }
+            });
+        }
+    }]);
+    return WebViewSimpleDemo;
+}(_react.Component);
+
+exports.default = WebViewSimpleDemo;
+}, 432, null, "ExerciseProject/src/08_webview/WebViewLocalDemo.js");
+__d(/* ExerciseProject/src/08_webview/helloworld.html */function(global, require, module, exports) {module.exports=require(168                                         ).registerAsset({"__packager_asset":true,"httpServerLocation":"/assets/src/08_webview","scales":[1],"hash":"892f7bb335fb24c010046353f65f31b7","name":"helloworld","type":"html"}); // 168 = react-native/Libraries/Image/AssetRegistry
+}, 433, null, "ExerciseProject/src/08_webview/helloworld.html");
+__d(/* ExerciseProject/src/08_webview/WebViewCommunication.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\08_webview\\WebViewCommunication.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var WebViewCommunication = function (_Component) {
+    babelHelpers.inherits(WebViewCommunication, _Component);
+
+    function WebViewCommunication(props) {
+        babelHelpers.classCallCheck(this, WebViewCommunication);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (WebViewCommunication.__proto__ || Object.getPrototypeOf(WebViewCommunication)).call(this, props));
+
+        _this._onMessage = function (e) {
+            _reactNative.Alert.alert(e.nativeEvent.data);
+        };
+
+        _this._postMessage = function () {
+            _this.webview.postMessage('我是React Native发送过来的数据');
+        };
+
+        return _this;
+    }
+
+    babelHelpers.createClass(WebViewCommunication, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 20
+                    }
+                },
+                _react2.default.createElement(_reactNative.WebView, {
+                    ref: function ref(webview) {
+                        return _this2.webview = webview;
+                    },
+                    source: require(435               ), // 435 = ./messaging.html
+                    onMessage: this._onMessage,
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 21
+                    }
+                }),
+                _react2.default.createElement(
+                    _reactNative.TouchableOpacity,
+                    {
+                        activeOpacity: 0.5,
+                        onPress: this._postMessage,
+                        style: [{ backgroundColor: '#38acff', padding: 20 }], __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 26
+                        }
+                    },
+                    _react2.default.createElement(
+                        _reactNative.Text,
+                        {
+                            __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 30
+                            }
+                        },
+                        '\u4ECERN\u4F20\u9012\u6570\u636E\u5230HTML'
+                    )
+                )
+            );
+        }
+    }]);
+    return WebViewCommunication;
+}(_react.Component);
+
+exports.default = WebViewCommunication;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "#ff0000"
+    }
+});
+}, 434, null, "ExerciseProject/src/08_webview/WebViewCommunication.js");
+__d(/* ExerciseProject/src/08_webview/messaging.html */function(global, require, module, exports) {module.exports=require(168                                         ).registerAsset({"__packager_asset":true,"httpServerLocation":"/assets/src/08_webview","scales":[1],"hash":"7eefaacc62058bbd3611822b71186464","name":"messaging","type":"html"}); // 168 = react-native/Libraries/Image/AssetRegistry
+}, 435, null, "ExerciseProject/src/08_webview/messaging.html");
+__d(/* ExerciseProject/src/09_picker/PickerDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\09_picker\\PickerDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var PickerDemo = function (_Component) {
+    babelHelpers.inherits(PickerDemo, _Component);
+
+    function PickerDemo(props) {
+        babelHelpers.classCallCheck(this, PickerDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (PickerDemo.__proto__ || Object.getPrototypeOf(PickerDemo)).call(this, props));
+
+        _this.state = {
+            language: null
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(PickerDemo, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactNative.Picker,
+                {
+                    selectedValue: this.state.language,
+                    onValueChange: function onValueChange(lang) {
+                        return _this2.setState({ language: lang });
+                    },
+                    style: { width: 200 },
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 14
+                    }
+                },
+                _react2.default.createElement(_reactNative.Picker.Item, { label: 'Java', value: 'java', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 19
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Picker.Item, { label: 'JavaScript', value: 'js', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 20
+                    }
+                })
+            );
+        }
+    }]);
+    return PickerDemo;
+}(_react.Component);
+
+exports.default = PickerDemo;
+}, 436, null, "ExerciseProject/src/09_picker/PickerDemo.js");
+__d(/* ExerciseProject/src/09_picker/SwitchDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\09_picker\\SwitchDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var SwitchDemo = function (_Component) {
+    babelHelpers.inherits(SwitchDemo, _Component);
+
+    function SwitchDemo(props) {
+        babelHelpers.classCallCheck(this, SwitchDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (SwitchDemo.__proto__ || Object.getPrototypeOf(SwitchDemo)).call(this, props));
+
+        _this.state = {
+            switchState1: true,
+            switchState2: false
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(SwitchDemo, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 15
+                    }
+                },
+                _react2.default.createElement(_reactNative.Switch, { style: { marginTop: 10, marginBottom: 10, backgroundColor: 'transparent' },
+                    value: this.state.switchState1,
+                    onValueChange: function onValueChange(value) {
+                        return _this2.setState({ switchState1: value });
+                    },
+                    onTintColor: 'red',
+                    thumbTintColor: 'yellow',
+                    tintColor: 'orange',
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 16
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Switch, { value: this.state.switchState2,
+                    onValueChange: function onValueChange(value) {
+                        return _this2.setState({ switchState2: value });
+                    },
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 23
+                    }
+                })
+            );
+        }
+    }]);
+    return SwitchDemo;
+}(_react.Component);
+
+exports.default = SwitchDemo;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'white',
+        flex: 1
+    }
+});
+}, 437, null, "ExerciseProject/src/09_picker/SwitchDemo.js");
+__d(/* ExerciseProject/src/09_picker/SliderDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\09_picker\\SliderDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var SwitchDemo = function (_Component) {
+    babelHelpers.inherits(SwitchDemo, _Component);
+
+    function SwitchDemo(props) {
+        babelHelpers.classCallCheck(this, SwitchDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (SwitchDemo.__proto__ || Object.getPrototypeOf(SwitchDemo)).call(this, props));
+
+        _this.state = {
+            value: 0
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(SwitchDemo, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: { flex: 1 }, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 14
+                    }
+                },
+                _react2.default.createElement(_reactNative.Slider, {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 15
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Slider, { disabled: true, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 16
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Slider, { value: 0.3, maximumTrackTintColor: 'black', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 17
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Slider, { value: 0.4, minimumTrackTintColor: 'red', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 18
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Slider, { value: 0.5, style: { borderWidth: 1, borderColor: 'red' }, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 19
+                    }
+                }),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 20
+                        }
+                    },
+                    this.state.value
+                ),
+                _react2.default.createElement(_reactNative.Slider, { minimumValue: 5, maximumValue: 20, onValueChange: function onValueChange(value) {
+                        _this2.setState({ value: value });
+                    }, onSlidingComplete: function onSlidingComplete(value) {
+                        _this2.setState({ value: value });
+                    }, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 21
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Slider, { thumbTintColor: 'red', step: 0.2, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 22
+                    }
+                })
+            );
+        }
+    }]);
+    return SwitchDemo;
+}(_react.Component);
+
+exports.default = SwitchDemo;
+}, 438, null, "ExerciseProject/src/09_picker/SliderDemo.js");
+__d(/* ExerciseProject/src/10_storage/AsyncStorageDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\10_storage\\AsyncStorageDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var _Dimensions$get = _reactNative.Dimensions.get('window'),
+    width = _Dimensions$get.width,
+    height = _Dimensions$get.height;
+
+var data = "";
+var AsyncStorageKey = "ASE_";
+
+var AsyncStorageExample = function (_Component) {
+    babelHelpers.inherits(AsyncStorageExample, _Component);
+
+    function AsyncStorageExample(props) {
+        babelHelpers.classCallCheck(this, AsyncStorageExample);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (AsyncStorageExample.__proto__ || Object.getPrototypeOf(AsyncStorageExample)).call(this, props));
+
+        _this.state = {
+            data: ""
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(AsyncStorageExample, [{
+        key: 'setData',
+        value: function setData(text) {
+            var _this2 = this;
+
+            _reactNative.AsyncStorage.setItem(AsyncStorageKey, text, function () {
+                _this2.setState({
+                    data: text
+                });
+            });
+        }
+    }, {
+        key: 'delData',
+        value: function delData() {
+            var _this3 = this;
+
+            _reactNative.AsyncStorage.getItem(AsyncStorageKey, function (error, text) {
+                if (text === null) {
+                    alert(AsyncStorageKey + "没有对应的值");
+                } else {
+                    _reactNative.AsyncStorage.removeItem(AsyncStorageKey, function () {
+                        _this3.setState({
+                            data: ""
+                        }, function () {
+                            alert('删除成功');
+                        });
+                    });
+                }
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 52
+                    }
+                },
+                _react2.default.createElement(_reactNative.Button, { onPress: this.setData.bind(this, "我用 AsyncStorage存了一条信息"), style: styles.itemView, title: '\u5B58\u50A8\u6570\u636E', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 53
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Button, { onPress: this.delData.bind(this), style: styles.itemView, title: '\u5220\u9664\u6570\u636E', __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 56
+                    }
+                }),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: { paddingTop: 40 }, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 59
+                        }
+                    },
+                    'AsyncStorage\u5B58\u50A8\u7684\u503C\u662F:'
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 62
+                        }
+                    },
+                    this.state.data
+                )
+            );
+        }
+    }]);
+    return AsyncStorageExample;
+}(_react.Component);
+
+exports.default = AsyncStorageExample;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#f2f2f2',
+        paddingTop: 20
+    },
+    itemView: {
+        backgroundColor: 'grey',
+        height: 44,
+        width: width,
+        justifyContent: 'center',
+        marginTop: 10
+    },
+    itemText: {
+        fontSize: 15,
+        color: '#ffffff',
+        textAlign: 'left',
+        marginLeft: 20
+    }
+});
+}, 439, null, "ExerciseProject/src/10_storage/AsyncStorageDemo.js");
+__d(/* ExerciseProject/src/10_storage/SQLiteDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\10_storage\\SQLiteDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var _SQLite = require(441       ); // 441 = ./SQLite
+
+var _SQLite2 = babelHelpers.interopRequireDefault(_SQLite);
+
+var sqLite = new _SQLite2.default();
+var db;
+
+var SQLiteDemo = function (_Component) {
+    babelHelpers.inherits(SQLiteDemo, _Component);
+
+    function SQLiteDemo(props) {
+        babelHelpers.classCallCheck(this, SQLiteDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (SQLiteDemo.__proto__ || Object.getPrototypeOf(SQLiteDemo)).call(this, props));
+
+        _this.state = {
+            name: "",
+            age: "",
+            phone: "",
+            email: "",
+            address: ""
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(SQLiteDemo, [{
+        key: 'compennetDidUnmount',
+        value: function compennetDidUnmount() {
+            sqLite.close();
+        }
+    }, {
+        key: 'componentWillMount',
+        value: function componentWillMount() {
+            var _this2 = this;
+
+            if (!db) {
+                db = sqLite.open();
+            }
+
+            sqLite.createTable();
+
+            sqLite.deleteData();
+
+            var userData = [];
+            var user = {};
+            user.name = "Mr.Onion";
+            user.age = "26";
+            user.sex = "男";
+            user.phone = "12345678910";
+            user.email = "123454321@qq.com";
+            user.address = "A市B街111号C室";
+            userData.push(user);
+
+            sqLite.insertUserData(userData);
+
+            db.transaction(function (tx) {
+                tx.executeSql("select * from user", [], function (tx, results) {
+                    var len = results.rows.length;
+                    for (var i = 0; i < len; i++) {
+                        var u = results.rows.item(i);
+                        _this2.setState({
+                            name: u.name,
+                            age: u.age,
+                            phone: u.phone,
+                            email: u.email,
+                            address: u.address
+                        });
+                    }
+                });
+            }, function (error) {
+                console.log(error);
+            });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.View,
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 69
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 70
+                        }
+                    },
+                    '\u59D3\u540D:',
+                    this.state.name
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 73
+                        }
+                    },
+                    '\u5E74\u9F84\uFF1A',
+                    this.state.age
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 76
+                        }
+                    },
+                    '\u7535\u8BDD\uFF1A',
+                    this.state.phone
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 79
+                        }
+                    },
+                    'Email\uFF1A',
+                    this.state.email
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 82
+                        }
+                    },
+                    '\u5730\u5740\uFF1A',
+                    this.state.address
+                )
+            );
+        }
+    }]);
+    return SQLiteDemo;
+}(_react.Component);
+
+exports.default = SQLiteDemo;
+}, 440, null, "ExerciseProject/src/10_storage/SQLiteDemo.js");
+__d(/* ExerciseProject/src/10_storage/SQLite.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var _reactNativeSqliteStorage = require(442                          ); // 442 = react-native-sqlite-storage
+
+var _reactNativeSqliteStorage2 = babelHelpers.interopRequireDefault(_reactNativeSqliteStorage);
+
+_reactNativeSqliteStorage2.default.DEBUG(true);
+var database_name = "test.db";
+var database_version = "1.0";
+var database_displayname = "MySQLite";
+var database_size = -1;
+var db;
+
+var SQLite = function (_Component) {
+    babelHelpers.inherits(SQLite, _Component);
+
+    function SQLite() {
+        babelHelpers.classCallCheck(this, SQLite);
+        return babelHelpers.possibleConstructorReturn(this, (SQLite.__proto__ || Object.getPrototypeOf(SQLite)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(SQLite, [{
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {
+            if (db) {
+                this._successCB('close');
+                db.close();
+            } else {
+                console.log("SQLiteStorage not open");
+            }
+        }
+    }, {
+        key: 'open',
+        value: function open() {
+            var _this2 = this;
+
+            db = _reactNativeSqliteStorage2.default.openDatabase(database_name, database_version, database_displayname, database_size, function () {
+                _this2._successCB('open');
+            }, function (err) {
+                _this2._errorCB('open', err);
+            });
+            return db;
+        }
+    }, {
+        key: 'createTable',
+        value: function createTable() {
+            var _this3 = this;
+
+            if (!db) {
+                this.open();
+            }
+
+            db.transaction(function (tx) {
+                tx.executeSql('CREATE TABLE IF NOT EXISTS USER(' + 'id INTEGER PRIMARY KEY  AUTOINCREMENT,' + 'name varchar,' + 'age VARCHAR,' + 'sex VARCHAR,' + 'phone VARCHAR,' + 'email VARCHAR,' + 'address VARCHAR)', [], function () {
+                    _this3._successCB('executeSql');
+                }, function (err) {
+                    _this3._errorCB('executeSql', err);
+                });
+            }, function (err) {
+                _this3._errorCB('transaction', err);
+            }, function () {
+                _this3._successCB('transaction');
+            });
+        }
+    }, {
+        key: 'deleteData',
+        value: function deleteData() {
+            if (!db) {
+                this.open();
+            }
+            db.transaction(function (tx) {
+                tx.executeSql('delete from user', [], function () {});
+            });
+        }
+    }, {
+        key: 'dropTable',
+        value: function dropTable() {
+            var _this4 = this;
+
+            db.transaction(function (tx) {
+                tx.executeSql('drop table user', [], function () {});
+            }, function (err) {
+                _this4._errorCB('transaction', err);
+            }, function () {
+                _this4._successCB('transaction');
+            });
+        }
+    }, {
+        key: 'insertUserData',
+        value: function insertUserData(userData) {
+            var _this5 = this;
+
+            var len = userData.length;
+            if (!db) {
+                this.open();
+            }
+            this.createTable();
+            this.deleteData();
+            db.transaction(function (tx) {
+                for (var i = 0; i < len; i++) {
+                    var user = userData[i];
+                    var name = user.name;
+                    var age = user.age;
+                    var sex = user.sex;
+                    var phone = user.phone;
+                    var email = user.email;
+                    var address = user.address;
+                    var sql = "INSERT INTO user(name,age,sex,phone,email,address)" + "values(?,?,?,?,?,?)";
+                    tx.executeSql(sql, [name, age, sex, phone, email, address], function () {}, function (err) {
+                        console.log(err);
+                    });
+                }
+            }, function (error) {
+                _this5._errorCB('transaction', error);
+            }, function () {
+                _this5._successCB('transaction insert data');
+            });
+        }
+    }, {
+        key: 'close',
+        value: function close() {
+            if (db) {
+                this._successCB('close');
+                db.close();
+            } else {
+                console.log("SQLiteStorage not open");
+            }
+            db = null;
+        }
+    }, {
+        key: '_successCB',
+        value: function _successCB(name) {
+            console.log("SQLiteStorage " + name + " success");
+        }
+    }, {
+        key: '_errorCB',
+        value: function _errorCB(name, err) {
+            console.log("SQLiteStorage " + name);
+            console.log(err);
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return null;
+        }
+    }]);
+    return SQLite;
+}(_react.Component);
+
+exports.default = SQLite;
+}, 441, null, "ExerciseProject/src/10_storage/SQLite.js");
+__d(/* react-native-sqlite-storage/sqlite.js */function(global, require, module, exports) {
+var plugin = require(443                   ); // 443 = ./lib/sqlite.core.js
+var SQLiteFactory = plugin.SQLiteFactory;
+
+
+var config = [[false, "SQLitePlugin", "transaction", false, true, true], [false, "SQLitePlugin", "readTransaction", false, true, true], [false, "SQLitePlugin", "close", false, false, true], [false, "SQLitePlugin", "executeSql", true, false, true], [false, "SQLitePlugin", "sqlBatch", false, false, true], [false, "SQLitePlugin", "attach", true, false, true], [false, "SQLitePlugin", "detach", false, false, true], [false, "SQLitePluginTransaction", "executeSql", true, false, false], [false, "SQLiteFactory", "deleteDatabase", false, false, true], [true, "SQLiteFactory", "openDatabase", false, false, true], [false, "SQLiteFactory", "echoTest", false, false, true]];
+
+var originalFns = {};
+config.forEach(function (entry) {
+  var _entry = babelHelpers.slicedToArray(entry, 3),
+      returnValueExpected = _entry[0],
+      prototype = _entry[1],
+      fn = _entry[2];
+
+  var originalFn = plugin[prototype].prototype[fn];
+  originalFns[prototype + "." + fn] = originalFn;
+});
+
+function enablePromiseRuntime(enable) {
+  if (enable) {
+    createPromiseRuntime();
+  } else {
+    createCallbackRuntime();
+  }
+}
+function createCallbackRuntime() {
+  config.forEach(function (entry) {
+    var _entry2 = babelHelpers.slicedToArray(entry, 6),
+        returnValueExpected = _entry2[0],
+        prototype = _entry2[1],
+        fn = _entry2[2],
+        argsNeedPadding = _entry2[3],
+        reverseCallbacks = _entry2[4],
+        rejectOnError = _entry2[5];
+
+    plugin[prototype].prototype[fn] = originalFns[prototype + "." + fn];
+  });
+  console.log("Callback based runtime ready");
+}
+function createPromiseRuntime() {
+  config.forEach(function (entry) {
+    var _entry3 = babelHelpers.slicedToArray(entry, 6),
+        returnValueExpected = _entry3[0],
+        prototype = _entry3[1],
+        fn = _entry3[2],
+        argsNeedPadding = _entry3[3],
+        reverseCallbacks = _entry3[4],
+        rejectOnError = _entry3[5];
+
+    var originalFn = plugin[prototype].prototype[fn];
+    plugin[prototype].prototype[fn] = function () {
+      var _this = this;
+
+      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      if (argsNeedPadding && args.length == 1) {
+        args.push([]);
+      }
+      var promise = new Promise(function (resolve, reject) {
+        var success = function success() {
+          if (!returnValueExpected) {
+            for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+              args[_key2] = arguments[_key2];
+            }
+
+            return resolve(args);
+          }
+        };
+        var error = function error(err) {
+          var _console;
+
+          (_console = console).log.apply(_console, ['error: ', fn].concat(babelHelpers.toConsumableArray(args), [arguments]));
+          if (rejectOnError) {
+            reject(err);
+          }
+          return false;
+        };
+        var retValue = originalFn.call.apply(originalFn, [_this].concat(babelHelpers.toConsumableArray(args), [reverseCallbacks ? error : success, reverseCallbacks ? success : error]));
+        if (returnValueExpected) {
+          return resolve(retValue);
+        }
+      });
+
+      return promise;
+    };
+  });
+  console.log("Promise based runtime ready");
+}
+SQLiteFactory.prototype.enablePromise = enablePromiseRuntime;
+
+module.exports = new SQLiteFactory();
+}, 442, null, "react-native-sqlite-storage/sqlite.js");
+__d(/* react-native-sqlite-storage/lib/sqlite.core.js */function(global, require, module, exports) {
+
+var NativeModules = require(27            ).NativeModules; // 27 = react-native
+var DB_STATE_INIT, DB_STATE_OPEN, READ_ONLY_REGEX, SQLiteFactory, SQLitePlugin, SQLitePluginTransaction, argsArray, dblocations, newSQLError, nextTick, root, txLocks;
+
+var plugin = {};
+
+READ_ONLY_REGEX = /^(\s|;)*(?:alter|create|delete|drop|insert|reindex|replace|update)/i;
+
+DB_STATE_INIT = "INIT";
+
+DB_STATE_OPEN = "OPEN";
+
+txLocks = {};
+
+newSQLError = function newSQLError(error, code) {
+  var sqlError;
+  sqlError = error;
+  if (!code) {
+    code = 0;
+  }
+  if (!sqlError) {
+    sqlError = new Error("a plugin had an error but provided no response");
+    sqlError.code = code;
+  }
+  if (typeof sqlError === "string") {
+    sqlError = new Error(error);
+    sqlError.code = code;
+  }
+  if (!sqlError.code && sqlError.message) {
+    sqlError.code = code;
+  }
+  if (!sqlError.code && !sqlError.message) {
+    sqlError = new Error("an unknown error was returned: " + JSON.stringify(sqlError));
+    sqlError.code = code;
+  }
+  return sqlError;
+};
+
+nextTick = window.setImmediate || function (fun) {
+  window.setTimeout(fun, 0);
+};
+
+argsArray = function argsArray(fun) {
+  return function () {
+    var args, i, len;
+    len = arguments.length;
+    if (len) {
+      args = [];
+      i = -1;
+      while (++i < len) {
+        args[i] = arguments[i];
+      }
+      return fun.call(this, args);
+    } else {
+      return fun.call(this, []);
+    }
+  };
+};
+
+plugin.exec = function (method, options, success, error) {
+  if (plugin.sqlitePlugin.DEBUG) {
+    console.log('SQLite.' + method + '(' + JSON.stringify(options) + ')');
+  }
+  NativeModules["SQLite"][method](options, success, error);
+};
+
+SQLitePlugin = function SQLitePlugin(openargs, openSuccess, openError) {
+  var dbname;
+  if (!(openargs && openargs['name'])) {
+    throw newSQLError("Cannot create a SQLitePlugin db instance without a db name");
+  }
+  dbname = openargs.name;
+  if (typeof dbname !== 'string') {
+    throw newSQLError('sqlite plugin database name must be a string');
+  }
+  this.openargs = openargs;
+  this.dbname = dbname;
+  this.openSuccess = openSuccess;
+  this.openError = openError;
+  this.openSuccess || (this.openSuccess = function () {
+    console.log("DB opened: " + dbname);
+  });
+  this.openError || (this.openError = function (e) {
+    console.log(e.message);
+  });
+  this.open(this.openSuccess, this.openError);
+};
+
+SQLitePlugin.prototype.databaseFeatures = {
+  isSQLitePluginDatabase: true
+};
+
+SQLitePlugin.prototype.openDBs = {};
+
+SQLitePlugin.prototype.addTransaction = function (t) {
+  if (!txLocks[this.dbname]) {
+    txLocks[this.dbname] = {
+      queue: [],
+      inProgress: false
+    };
+  }
+  txLocks[this.dbname].queue.push(t);
+  if (this.dbname in this.openDBs && this.openDBs[this.dbname] !== DB_STATE_INIT) {
+    this.startNextTransaction();
+  } else {
+    if (this.dbname in this.openDBs) {
+      console.log('new transaction is waiting for open operation');
+    } else {
+      console.log('database is closed, new transaction is [stuck] waiting until db is opened again!');
+    }
+  }
+};
+
+SQLitePlugin.prototype.transaction = function (fn, error, success) {
+  if (!this.openDBs[this.dbname]) {
+    error(newSQLError('database not open'));
+    return;
+  }
+  this.addTransaction(new SQLitePluginTransaction(this, fn, error, success, true, false));
+};
+
+SQLitePlugin.prototype.readTransaction = function (fn, error, success) {
+  if (!this.openDBs[this.dbname]) {
+    error(newSQLError('database not open'));
+    return;
+  }
+  this.addTransaction(new SQLitePluginTransaction(this, fn, error, success, false, true));
+};
+
+SQLitePlugin.prototype.startNextTransaction = function () {
+  var self;
+  self = this;
+  nextTick(function (_this) {
+    return function () {
+      var txLock;
+      if (!(_this.dbname in _this.openDBs) || _this.openDBs[_this.dbname] !== DB_STATE_OPEN) {
+        console.log('cannot start next transaction: database not open');
+        return;
+      }
+      txLock = txLocks[self.dbname];
+      if (!txLock) {
+        console.log('cannot start next transaction: database connection is lost');
+      } else if (txLock.queue.length > 0 && !txLock.inProgress) {
+        txLock.inProgress = true;
+        txLock.queue.shift().start();
+      }
+    };
+  }(this));
+};
+
+SQLitePlugin.prototype.abortAllPendingTransactions = function () {
+  var j, len1, ref, tx, txLock;
+  txLock = txLocks[this.dbname];
+  if (!!txLock && txLock.queue.length > 0) {
+    ref = txLock.queue;
+    for (j = 0, len1 = ref.length; j < len1; j++) {
+      tx = ref[j];
+      tx.abortFromQ(newSQLError('Invalid database handle'));
+    }
+    txLock.queue = [];
+    txLock.inProgress = false;
+  }
+};
+
+SQLitePlugin.prototype.sqlBatch = function (sqlStatements, success, error) {
+  var batchList, j, len1, myfn, st;
+  if (!sqlStatements || sqlStatements.constructor !== Array) {
+    throw newSQLError('sqlBatch expects an array');
+  }
+  batchList = [];
+  for (j = 0, len1 = sqlStatements.length; j < len1; j++) {
+    st = sqlStatements[j];
+    if (st.constructor === Array) {
+      if (st.length === 0) {
+        throw newSQLError('sqlBatch array element of zero (0) length');
+      }
+      batchList.push({
+        sql: st[0],
+        params: st.length === 0 ? [] : st[1]
+      });
+    } else {
+      batchList.push({
+        sql: st,
+        params: []
+      });
+    }
+  }
+  myfn = function myfn(tx) {
+    var elem, k, len2, results;
+    results = [];
+    for (k = 0, len2 = batchList.length; k < len2; k++) {
+      elem = batchList[k];
+      results.push(tx.addStatement(elem.sql, elem.params, null, null));
+    }
+    return results;
+  };
+  var mysuccess = function mysuccess() {
+    if (!!success) {
+      return success();
+    }
+  };
+  var myerror = function myerror(e) {
+    if (!!error) {
+      return error(e);
+    } else {
+      console.log("Error handler not provided: ", e);
+    }
+  };
+
+  this.addTransaction(new SQLitePluginTransaction(this, myfn, myerror, mysuccess, true, false));
+};
+
+SQLitePlugin.prototype.open = function (success, error) {
+  var openerrorcb, opensuccesscb;
+
+  if (this.dbname in this.openDBs && this.openDBs[this.dbname] === DB_STATE_OPEN) {
+    console.log('database already open: ' + this.dbname);
+    nextTick(function (_this) {
+      return function () {
+        success(_this);
+      };
+    }(this));
+  } else {
+    console.log('OPEN database: ' + this.dbname);
+    opensuccesscb = function (_this) {
+      return function () {
+        var txLock;
+        if (!_this.openDBs[_this.dbname]) {
+          console.log('database was closed during open operation');
+        }
+        if (_this.dbname in _this.openDBs) {
+          _this.openDBs[_this.dbname] = DB_STATE_OPEN;
+        }
+        if (!!success) {
+          success(_this);
+        }
+        txLock = txLocks[_this.dbname];
+        if (!!txLock && txLock.queue.length > 0 && !txLock.inProgress) {
+          _this.startNextTransaction();
+        }
+      };
+    }(this);
+    openerrorcb = function (_this) {
+      return function () {
+        console.log('OPEN database: ' + _this.dbname + ' failed, aborting any pending transactions');
+        if (!!error) {
+          error(newSQLError('Could not open database'));
+        }
+        delete _this.openDBs[_this.dbname];
+        _this.abortAllPendingTransactions();
+      };
+    }(this);
+    this.openDBs[this.dbname] = DB_STATE_INIT;
+    plugin.exec("open", this.openargs, opensuccesscb, openerrorcb);
+  }
+};
+
+SQLitePlugin.prototype.close = function (success, error) {
+  if (this.dbname in this.openDBs) {
+    if (txLocks[this.dbname] && txLocks[this.dbname].inProgress) {
+      console.log('cannot close: transaction is in progress');
+      error(newSQLError('database cannot be closed while a transaction is in progress'));
+      return;
+    }
+    console.log('CLOSE database: ' + this.dbname);
+    delete this.openDBs[this.dbname];
+    if (txLocks[this.dbname]) {
+      console.log('closing db with transaction queue length: ' + txLocks[this.dbname].queue.length);
+    } else {
+      console.log('closing db with no transaction lock state');
+    }
+    var mysuccess = function mysuccess(t, r) {
+      if (!!success) {
+        return success(r);
+      }
+    };
+    var myerror = function myerror(t, e) {
+      if (!!error) {
+        return error(e);
+      } else {
+        console.log("Error handler not provided: ", e);
+      }
+    };
+    plugin.exec("close", { path: this.dbname }, mysuccess, myerror);
+  } else {
+    var err = 'cannot close: database is not open';
+    console.log(err);
+    if (error) {
+      nextTick(function () {
+        return error(err);
+      });
+    }
+  }
+};
+
+SQLitePlugin.prototype.attach = function (dbNameToAttach, dbAlias, success, error) {
+  if (this.dbname in this.openDBs) {
+    if (txLocks[this.dbname] && txLocks[this.dbname].inProgress) {
+      console.log('cannot attach: transaction is in progress');
+      error(newSQLError('database cannot be attached while a transaction is in progress'));
+      return;
+    }
+    console.log('ATTACH database ' + dbNameToAttach + ' to ' + this.dbname + ' with alias ' + dbAlias);
+
+    var mysuccess = function mysuccess(t, r) {
+      if (!!success) {
+        return success(r);
+      }
+    };
+    var myerror = function myerror(e) {
+      if (!!error) {
+        return error(e);
+      } else {
+        console.log("Error handler not provided: ", e);
+      }
+    };
+    plugin.exec("attach", { path: this.dbname, dbName: dbNameToAttach, dbAlias: dbAlias }, mysuccess, myerror);
+  } else {
+    var err = 'cannot attach: database is not open';
+    if (error) {
+      nextTick(function () {
+        return error(err);
+      });
+    }
+  }
+};
+
+SQLitePlugin.prototype.detach = function (dbAlias, success, error) {
+  if (this.dbname in this.openDBs) {
+    if (txLocks[this.dbname] && txLocks[this.dbname].inProgress) {
+      console.log('cannot attach: transaction is in progress');
+      error(newSQLError('database cannot be attached while a transaction is in progress'));
+      return;
+    }
+    console.log('DETACH database ' + dbAlias + ' from ' + this.dbname);
+
+    var mysuccess = function mysuccess(t, r) {
+      if (!!success) {
+        return success(r);
+      }
+    };
+    var myerror = function myerror(e) {
+      console.log('ERR', e);
+      if (!!error) {
+        return error(e);
+      } else {
+        console.log("Error handler not provided: ", e);
+      }
+    };
+    this.executeSql('DETACH DATABASE ' + dbAlias, [], mysuccess, myerror);
+  } else {
+    var err = 'cannot attach: database is not open';
+    console.log(err);
+    if (error) {
+      nextTick(function () {
+        return error(err);
+      });
+    }
+  }
+};
+
+SQLitePlugin.prototype.executeSql = function (statement, params, success, error) {
+  var myerror, myfn, mysuccess;
+  mysuccess = function mysuccess(t, r) {
+    if (!!success) {
+      return success(r);
+    }
+  };
+  myerror = function myerror(t, e) {
+    if (!!error) {
+      return error(e);
+    } else {
+      console.log("Error handler not provided: ", e);
+    }
+  };
+  myfn = function myfn(tx) {
+    tx.addStatement(statement, params, mysuccess, myerror);
+  };
+  this.addTransaction(new SQLitePluginTransaction(this, myfn, null, null, false, false));
+};
+
+SQLitePluginTransaction = function SQLitePluginTransaction(db, fn, error, success, txlock, readOnly) {
+  if (typeof fn !== "function") {
+    var err = newSQLError("transaction expected a function");
+    if (!!error) {
+      return error(err);
+    } else {
+      throw err;
+    }
+  }
+  this.db = db;
+  this.fn = fn;
+  this.error = error;
+  this.success = success;
+  this.txlock = txlock;
+  this.readOnly = readOnly;
+  this.executes = [];
+  if (txlock) {
+    this.addStatement("BEGIN", [], null, function (tx, err) {
+      throw newSQLError("unable to begin transaction: " + err.message, err.code);
+    });
+  } else {
+    this.addStatement("SELECT 1", [], null, null);
+  }
+};
+
+SQLitePluginTransaction.prototype.start = function () {
+  var err;
+  try {
+    this.fn(this);
+    this.run();
+  } catch (_error) {
+    err = _error;
+    txLocks[this.db.dbname].inProgress = false;
+    this.db.startNextTransaction();
+    if (this.error) {
+      this.error(newSQLError(err));
+    }
+  }
+};
+
+SQLitePluginTransaction.prototype.executeSql = function (sql, values, success, error) {
+  var that = this;
+  if (that.finalized) {
+    throw {
+      message: 'InvalidStateError: DOM Exception 11: This transaction is already finalized. Transactions are committed' + ' after its success or failure handlers are called. If you are using a Promise to handle callbacks, be aware that' + ' implementations following the A+ standard adhere to run-to-completion semantics and so Promise resolution occurs' + ' on a subsequent tick and therefore after the transaction commits.',
+      code: 11
+    };
+  }
+  if (that.readOnly && READ_ONLY_REGEX.test(sql)) {
+    that.handleStatementFailure(error, {
+      message: 'invalid sql for a read-only transaction'
+    });
+    return;
+  }
+  var mysuccess = function mysuccess(t, r) {
+    if (!!success) {
+      return success(t, r);
+    }
+  };
+  var myerror = function myerror(t, e) {
+    if (!!error) {
+      return error(e);
+    } else {
+      console.log("Error handler not provided: ", e);
+    }
+  };
+  that.addStatement(sql, values, mysuccess, myerror);
+};
+
+SQLitePluginTransaction.prototype.addStatement = function (sql, values, success, error) {
+  var j, len1, params, sqlStatement, t, v;
+  sqlStatement = typeof sql === 'string' ? sql : sql.toString();
+  params = [];
+  if (!!values && values.constructor === Array) {
+    for (j = 0, len1 = values.length; j < len1; j++) {
+      v = values[j];
+      t = typeof v;
+      if (v === null || v === void 0 || t === 'number' || t === 'string') {
+        params.push(v);
+      } else if (t === 'boolean') {
+        params.push(~~v);
+      } else if (t !== 'function') {
+        params.push(v.toString());
+        console.warn('addStatement - parameter of type <' + t + '> converted to string using toString()');
+      } else {
+        var errorMsg = 'Unsupported parameter type <' + t + '> found in addStatement()';
+        console.error(errorMsg);
+        error(newSQLError(errorMsg));
+        return;
+      }
+    }
+  }
+  this.executes.push({
+    success: success,
+    error: error,
+    sql: sqlStatement,
+    params: params
+  });
+};
+
+SQLitePluginTransaction.prototype.handleStatementSuccess = function (handler, response) {
+  var payload, rows;
+  if (!handler) {
+    return;
+  }
+  rows = response.rows || [];
+
+  payload = {
+    rows: {
+      item: function item(i) {
+        return rows[i];
+      },
+
+      raw: function raw() {
+        return rows.slice();
+      },
+      length: rows.length
+    },
+    rowsAffected: response.rowsAffected || 0,
+    insertId: response.insertId || void 0
+  };
+
+  handler(this, payload);
+};
+
+SQLitePluginTransaction.prototype.handleStatementFailure = function (handler, response) {
+  if (!handler) {
+    throw newSQLError("a statement with no error handler failed: " + response.message, response.code);
+  }
+  if (handler(this, response) !== false) {
+    throw newSQLError("a statement error callback did not return false: " + response.message, response.code);
+  }
+};
+
+SQLitePluginTransaction.prototype.run = function () {
+  var batchExecutes, handlerFor, i, callbacks, request, tropts, tx, txFailure, waiting;
+  txFailure = null;
+  tropts = [];
+  batchExecutes = this.executes;
+  waiting = batchExecutes.length;
+  this.executes = [];
+  tx = this;
+  handlerFor = function handlerFor(index, didSucceed) {
+    return function (response) {
+      if (!txFailure) {
+        try {
+          if (didSucceed) {
+            tx.handleStatementSuccess(batchExecutes[index].success, response);
+          } else {
+            tx.handleStatementFailure(batchExecutes[index].error, newSQLError(response));
+          }
+        } catch (err) {
+          var errorMsg = JSON.stringify(err);
+          if (errorMsg === "{}") errorMsg = err.toString();
+          console.log("warning - exception while invoking a callback: " + errorMsg);
+        }
+
+        if (!didSucceed) {
+          txFailure = newSQLError(response);
+        }
+      }
+      if (--waiting === 0) {
+        if (txFailure) {
+          tx.executes = [];
+          tx.abort(txFailure);
+        } else if (tx.executes.length > 0) {
+          tx.run();
+        } else {
+          tx.finish();
+        }
+      }
+    };
+  };
+
+  i = 0;
+  callbacks = [];
+  while (i < batchExecutes.length) {
+    request = batchExecutes[i];
+    callbacks.push({
+      success: handlerFor(i, true),
+      error: handlerFor(i, false)
+    });
+    tropts.push({
+      qid: 1111,
+      sql: request.sql,
+      params: request.params
+    });
+    i++;
+  }
+
+  var mysuccess = function mysuccess(result) {
+    var j, last, q, r, res, type;
+    if (result.length == 0) {
+      return;
+    }
+    last = result.length - 1;
+    for (j = 0; j <= last; ++j) {
+      r = result[j];
+      type = r.type;
+      res = r.result;
+      q = callbacks[j];
+      if (q) {
+        if (q[type]) {
+          q[type](res);
+        }
+      }
+    }
+  };
+
+  var myerror = function myerror(error) {
+    console.log("batch execution error: ", error);
+  };
+
+  plugin.exec("backgroundExecuteSqlBatch", {
+    dbargs: {
+      dbname: this.db.dbname
+    },
+    executes: tropts
+  }, mysuccess, myerror);
+};
+
+SQLitePluginTransaction.prototype.abort = function (txFailure) {
+  var failed, succeeded, tx;
+  if (this.finalized) {
+    return;
+  }
+  tx = this;
+  succeeded = function succeeded(tx) {
+    txLocks[tx.db.dbname].inProgress = false;
+    tx.db.startNextTransaction();
+    if (tx.error) {
+      tx.error(txFailure);
+    }
+  };
+  failed = function failed(tx, err) {
+    txLocks[tx.db.dbname].inProgress = false;
+    tx.db.startNextTransaction();
+    if (tx.error) {
+      tx.error(newSQLError("error while trying to roll back: " + err.message, err.code));
+    }
+  };
+  this.finalized = true;
+  if (this.txlock) {
+    this.addStatement("ROLLBACK", [], succeeded, failed);
+    this.run();
+  } else {
+    succeeded(tx);
+  }
+};
+
+SQLitePluginTransaction.prototype.finish = function () {
+  var failed, succeeded, tx;
+  if (this.finalized) {
+    return;
+  }
+  tx = this;
+  succeeded = function succeeded(tx) {
+    txLocks[tx.db.dbname].inProgress = false;
+    tx.db.startNextTransaction();
+    if (tx.success) {
+      tx.success();
+    }
+  };
+  failed = function failed(tx, err) {
+    txLocks[tx.db.dbname].inProgress = false;
+    tx.db.startNextTransaction();
+    if (tx.error) {
+      tx.error(newSQLError("error while trying to commit: " + err.message, err.code));
+    }
+  };
+  this.finalized = true;
+  if (this.txlock) {
+    this.addStatement("COMMIT", [], succeeded, failed);
+    this.run();
+  } else {
+    succeeded(tx);
+  }
+};
+
+SQLitePluginTransaction.prototype.abortFromQ = function (sqlerror) {
+  if (this.error) {
+    this.error(sqlerror);
+  }
+};
+
+dblocations = {
+  'default': 'nosync',
+  'Documents': 'docs',
+  'Library': 'libs'
+};
+
+SQLiteFactory = function SQLiteFactory() {};
+
+SQLiteFactory.prototype.DEBUG = function (debug) {
+  console.log("Setting debug to:", debug);
+  plugin.sqlitePlugin.DEBUG = debug;
+};
+
+SQLiteFactory.prototype.sqliteFeatures = function () {
+  return {
+    isSQLitePlugin: true
+  };
+};
+
+SQLiteFactory.prototype.openDatabase = argsArray(function (args) {
+  var errorcb, first, okcb, openargs, readOnly;
+  if (args.length < 1) {
+    return null;
+  }
+  first = args[0];
+  openargs = null;
+  okcb = errorcb = function errorcb() {};
+  if (first.constructor === String) {
+    openargs = {
+      name: first,
+      dblocation: dblocations['default']
+    };
+    if (args.length >= 5) {
+      okcb = args[4];
+      if (args.length > 5) {
+        errorcb = args[5];
+      }
+    }
+  } else {
+    openargs = first;
+    readOnly = !!openargs.readOnly;
+    if (!readOnly && (!openargs.location || openargs.location.constructor !== String || !dblocations.hasOwnProperty(openargs.location))) {
+      openargs.dblocation = dblocations['default'];
+    } else {
+      openargs.dblocation = dblocations[openargs.location];
+    }
+
+    if (!!openargs.createFromLocation) {
+      if (openargs.createFromLocation === 1) {
+        openargs.assetFilename = "1";
+      } else if (typeof openargs.createFromLocation == 'string') {
+        openargs.assetFilename = openargs.createFromLocation;
+      }
+    }
+
+    if (!!openargs.androidDatabaseImplementation && openargs.androidDatabaseImplementation === 2) {
+      openargs.androidOldDatabaseImplementation = 1;
+    }
+
+    if (!!openargs.androidLockWorkaround && openargs.androidLockWorkaround === 1) {
+      openargs.androidBugWorkaround = 1;
+    }
+
+    if (args.length >= 2) {
+      okcb = args[1];
+      if (args.length > 2) {
+        errorcb = args[2];
+      }
+    }
+  }
+
+  return new SQLitePlugin(openargs, okcb, errorcb);
+});
+
+SQLiteFactory.prototype.echoTest = function (success, error) {
+  var inputTestValue = 'test-string';
+  var mysuccess = function mysuccess(testValue) {
+    if (testValue === inputTestValue) {
+      return success();
+    } else {
+      return error("Mismatch: got: " + testValue + " , expected: " + inputTestValue);
+    }
+  };
+  var myerror = function myerror(e) {
+    return error(e);
+  };
+
+  plugin.exec("echoStringValue", { value: inputTestValue }, mysuccess, myerror);
+};
+
+SQLiteFactory.prototype.deleteDatabase = function (first, success, error) {
+  var args = {};
+  if (first.constructor === String) {
+    args.path = first;
+    args.dblocation = dblocations['default'];
+  } else {
+    if (!(first && first['name'])) {
+      throw new Error("Please specify db name via name property");
+    }
+    args.path = first.name;
+    if (!first.location || first.location.constructor !== String || !dblocations.hasOwnProperty(first.location)) {
+      args.dblocation = dblocations['default'];
+    } else {
+      args.dblocation = dblocations[first.location];
+    }
+  }
+
+  var mysuccess = function mysuccess(r) {
+    delete SQLitePlugin.prototype.openDBs[args.path];
+    if (!!success) {
+      return success(r);
+    }
+  };
+  var myerror = function myerror(e) {
+    if (!!error) {
+      return error(e);
+    } else {
+      console.log("deleteDatabase error handler not provided: ", e);
+    }
+  };
+
+  plugin.exec("delete", args, mysuccess, myerror);
+};
+
+plugin.sqlitePlugin = {
+  SQLiteFactory: SQLiteFactory,
+  SQLitePluginTransaction: SQLitePluginTransaction,
+  SQLitePlugin: SQLitePlugin
+};
+
+module.exports = plugin.sqlitePlugin;
+}, 443, null, "react-native-sqlite-storage/lib/sqlite.core.js");
+__d(/* ExerciseProject/src/10_storage/RealmDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\10_storage\\RealmDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var Realm = require(445    ); // 445 = realm
+var DogSchema = {
+    name: 'Dog',
+    primaryKey: 'id',
+    properties: {
+        id: 'int',
+        dogname: 'string',
+        color: 'string'
+    }
+};
+
+var RealmDemo = function (_Component) {
+    babelHelpers.inherits(RealmDemo, _Component);
+
+    function RealmDemo(props) {
+        babelHelpers.classCallCheck(this, RealmDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (RealmDemo.__proto__ || Object.getPrototypeOf(RealmDemo)).call(this, props));
+
+        _this.state = { realm: null };
+        return _this;
+    }
+
+    babelHelpers.createClass(RealmDemo, [{
+        key: 'componentWillMount',
+        value: function componentWillMount() {
+            var realm = new Realm({ schema: [DogSchema] });
+            realm.write(function () {
+                realm.create('Dog', { id: 0, dogname: 'Rex', color: 'red' });
+                realm.create('Dog', { id: 1, dogname: 'Jeff', color: 'green' });
+                realm.create('Dog', { id: 2, dogname: 'Dave', color: 'black' });
+
+                realm.create('Dog', { id: 1, color: 'white' }, true);
+            });
+            this.setState({ realm: realm });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var info = this.state.realm ? 'Number of dogs in this Realm: ' + this.state.realm.objects('Dog').length : 'Loading...';
+
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 44
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 45
+                        }
+                    },
+                    info
+                )
+            );
+        }
+    }]);
+    return RealmDemo;
+}(_react.Component);
+
+exports.default = RealmDemo;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#f2f2f2',
+        paddingTop: 20
+    }
+});
+}, 444, null, "ExerciseProject/src/10_storage/RealmDemo.js");
+__d(/* realm/lib/index.js */function(global, require, module, exports) {
+
+'use strict';
+
+var require_method = require;
+
+function nodeRequire(module) {
+    return require_method(module);
+}
+
+function getContext() {
+    if (typeof process === 'object' && process + '' === '[object process]') {
+        if (typeof global !== 'undefined' && global.__debug__) {
+            return 'vscodedebugger';
+        }
+
+        return process.type === 'renderer' ? 'electron' : 'nodejs';
+    }
+
+    if (typeof jest === 'object') {
+        return 'nodejs';
+    }
+
+    if (typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
+        if (typeof navigator !== 'undefined' && /Chrome/.test(navigator.userAgent)) {
+            return 'chromedebugger';
+        }
+
+        if (typeof atob !== 'undefined') {
+            return 'chromedebugger';
+        }
+
+        if (typeof Realm === 'undefined') {
+            throw new Error('Missing Realm constructor. Did you run "react-native link realm"? Please see https://realm.io/docs/react-native/latest/#missing-realm-constructor for troubleshooting');
+        }
+        return 'reactnative';
+    }
+
+    if (typeof Realm !== 'undefined') {
+        return 'jscore';
+    }
+
+    if (typeof global !== 'undefined' && global.__debug__) {
+        return 'vscodedebugger';
+    }
+
+    if (typeof navigator !== 'undefined' && /Chrome/.test(navigator.userAgent)) {
+        return 'chromedebugger';
+    }
+
+    throw Error("Unknown execution context");
+}
+
+var realmConstructor;
+
+switch (getContext()) {
+    case 'nodejs':
+    case 'electron':
+        nodeRequire('./submit-analytics')('Run');
+
+        var binary = nodeRequire('node-pre-gyp');
+        var path = nodeRequire('path');
+        var pkg = path.resolve(path.join(__dirname, '../package.json'));
+        var binding_path = binary.find(pkg);
+
+        realmConstructor = require_method(binding_path).Realm;
+        break;
+
+    case 'reactnative':
+    case 'jscore':
+        realmConstructor = Realm;
+        break;
+
+    case 'chromedebugger':
+    case 'vscodedebugger':
+        realmConstructor = require(446        ).default; // 446 = ./browser
+        break;
+}
+
+if (!realmConstructor) {
+    throw Error("Error trying to establish execution context");
+}
+
+require(464           )(realmConstructor); // 464 = ./extensions
+
+module.exports = realmConstructor;
+}, 445, null, "realm/lib/index.js");
+__d(/* realm/lib/browser/index.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _collections = require(448            ); // 448 = ./collections
+
+var collections = babelHelpers.interopRequireWildcard(_collections);
+
+var _lists = require(452      ); // 452 = ./lists
+
+var _lists2 = babelHelpers.interopRequireDefault(_lists);
+
+var _results = require(453        ); // 453 = ./results
+
+var _results2 = babelHelpers.interopRequireDefault(_results);
+
+var _objects = require(454        ); // 454 = ./objects
+
+var objects = babelHelpers.interopRequireWildcard(_objects);
+
+var _user = require(455     ); // 455 = ./user
+
+var _user2 = babelHelpers.interopRequireDefault(_user);
+
+var _session = require(456        ); // 456 = ./session
+
+var _session2 = babelHelpers.interopRequireDefault(_session);
+
+var _rpc = require(450    ); // 450 = ./rpc
+
+var rpc = babelHelpers.interopRequireWildcard(_rpc);
+
+var _util = require(449     ); // 449 = ./util
+
+var util = babelHelpers.interopRequireWildcard(_util);
+
+var _userMethods = require(457              ); // 457 = ../user-methods
+
+var _NativeModules$Realm = _reactNative.NativeModules.Realm,
+    debugHosts = _NativeModules$Realm.debugHosts,
+    debugPort = _NativeModules$Realm.debugPort;
+
+
+rpc.registerTypeConverter(_constants.objectTypes.LIST, _lists.createList);
+rpc.registerTypeConverter(_constants.objectTypes.RESULTS, _results.createResults);
+rpc.registerTypeConverter(_constants.objectTypes.OBJECT, objects.createObject);
+rpc.registerTypeConverter(_constants.objectTypes.REALM, createRealm);
+rpc.registerTypeConverter(_constants.objectTypes.USER, _user.createUser);
+rpc.registerTypeConverter(_constants.objectTypes.SESSION, _session.createSession);
+
+function createRealm(_, info) {
+    var realm = Object.create(Realm.prototype);
+
+    setupRealm(realm, info.id);
+    return realm;
+}
+
+function setupRealm(realm, realmId) {
+    realm[_constants.keys.id] = realmId;
+    realm[_constants.keys.realm] = realmId;
+    realm[_constants.keys.type] = _constants.objectTypes.REALM;
+
+    ['empty', 'path', 'readOnly', 'inMemory', 'schema', 'schemaVersion', 'syncSession', 'isInTransaction', 'subscribeToObjects'].forEach(function (name) {
+        Object.defineProperty(realm, name, { get: util.getterForProperty(name) });
+    });
+}
+
+function getObjectType(realm, type) {
+    if (typeof type == 'function') {
+        return objects.typeForConstructor(realm[_constants.keys.realm], type);
+    }
+    return type;
+}
+
+var Realm = function () {
+    function Realm(config) {
+        babelHelpers.classCallCheck(this, Realm);
+
+        var schemas = typeof config == 'object' && config.schema;
+        var constructors = schemas ? {} : null;
+
+        for (var i = 0, len = schemas ? schemas.length : 0; i < len; i++) {
+            var item = schemas[i];
+
+            if (typeof item == 'function') {
+                var schema = item.schema;
+                if (!schema || typeof schema != 'object') {
+                    throw new Error("Realm object constructor must have a 'schema' property.");
+                }
+
+                var name = schema.name,
+                    properties = schema.properties;
+
+                if (!name || typeof name != 'string') {
+                    throw new Error('Failed to read ObjectSchema: name must be of type \'string\', got (' + typeof name + ')');
+                } else if (!properties || typeof properties != 'object') {
+                    throw new Error('Failed to read ObjectSchema: properties must be of type \'object\', got (' + typeof properties + ')');
+                }
+
+                schemas.splice(i, 1, schema);
+                constructors[name] = item;
+            }
+        }
+
+        var realmId = rpc.createRealm(Array.from(arguments));
+        setupRealm(this, realmId);
+
+        objects.registerConstructors(realmId, this.path, constructors);
+    }
+
+    babelHelpers.createClass(Realm, [{
+        key: 'create',
+        value: function create(type) {
+            var method = util.createMethod(_constants.objectTypes.REALM, 'create', true);
+
+            for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+                args[_key - 1] = arguments[_key];
+            }
+
+            return method.apply(this, [getObjectType(this, type)].concat(args));
+        }
+    }, {
+        key: 'objects',
+        value: function objects(type) {
+            var method = util.createMethod(_constants.objectTypes.REALM, 'objects');
+
+            for (var _len2 = arguments.length, args = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                args[_key2 - 1] = arguments[_key2];
+            }
+
+            return method.apply(this, [getObjectType(this, type)].concat(args));
+        }
+    }, {
+        key: 'objectForPrimaryKey',
+        value: function objectForPrimaryKey(type) {
+            var method = util.createMethod(_constants.objectTypes.REALM, 'objectForPrimaryKey');
+
+            for (var _len3 = arguments.length, args = Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+                args[_key3 - 1] = arguments[_key3];
+            }
+
+            return method.apply(this, [getObjectType(this, type)].concat(args));
+        }
+    }]);
+    return Realm;
+}();
+
+exports.default = Realm;
+
+util.createMethods(Realm.prototype, _constants.objectTypes.REALM, ['addListener', 'removeListener', 'removeAllListeners', 'close', '_waitForDownload', '_objectForObjectId']);
+
+util.createMethods(Realm.prototype, _constants.objectTypes.REALM, ['delete', 'deleteModel', 'deleteAll', 'write', 'compact', 'beginTransaction', 'commitTransaction', 'cancelTransaction'], true);
+
+var Sync = {
+    User: _user2.default,
+    Session: _session2.default
+};
+
+Object.defineProperties(Realm, {
+    Collection: {
+        value: collections.default
+    },
+    List: {
+        value: _lists2.default
+    },
+    Results: {
+        value: _results2.default
+    },
+    Object: {
+        value: objects.default
+    },
+    Sync: {
+        value: Sync
+    },
+    defaultPath: {
+        get: util.getterForProperty('defaultPath'),
+        set: util.setterForProperty('defaultPath')
+    },
+    schemaVersion: {
+        value: function value(_path, _encryptionKey) {
+            return rpc.callMethod(undefined, Realm[_constants.keys.id], 'schemaVersion', Array.from(arguments));
+        }
+    },
+    deleteFile: {
+        value: function value(config) {
+            return rpc.callMethod(undefined, Realm[_constants.keys.id], 'deleteFile', Array.from(arguments));
+        }
+    },
+    copyBundledRealmFiles: {
+        value: function value() {
+            return rpc.callMethod(undefined, Realm[_constants.keys.id], 'copyBundledRealmFiles', []);
+        }
+    },
+    clearTestState: {
+        value: function value() {
+            collections.clearMutationListeners();
+            objects.clearRegisteredConstructors();
+            rpc.clearTestState();
+        }
+    }
+});
+
+for (var i = 0, len = debugHosts.length; i < len; i++) {
+    try {
+        var refreshAccessTokenCallback = _userMethods.static._refreshAccessToken.bind(_user2.default);
+
+        Realm[_constants.keys.id] = rpc.createSession(refreshAccessTokenCallback, debugHosts[i] + ':' + debugPort);
+        break;
+    } catch (e) {
+        if (i < len - 1) {
+            continue;
+        }
+
+        console.error(e);
+
+        throw new Error('Realm failed to connect to the embedded debug server inside the app. ' + 'If attempting to use Chrome debugging from a device, ensure the device is ' + 'reachable on the same network as this machine.');
+    }
+}
+}, 446, null, "realm/lib/browser/index.js");
+__d(/* realm/lib/browser/constants.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var keys = exports.keys = {};
+var objectTypes = exports.objectTypes = {};
+var propTypes = exports.propTypes = {};
+
+['id', 'realm', 'type'].forEach(function (name) {
+    keys[name] = Symbol(name);
+});
+
+['DATA', 'DATE', 'DICT', 'FUNCTION', 'LIST', 'OBJECT', 'REALM', 'RESULTS', 'USER', 'SESSION', 'UNDEFINED'].forEach(function (type) {
+    Object.defineProperty(objectTypes, type, {
+        value: type.toLowerCase()
+    });
+});
+
+['BOOL', 'INT', 'FLOAT', 'DOUBLE', 'STRING', 'DATE', 'DATA', 'OBJECT', 'LIST'].forEach(function (type) {
+    Object.defineProperty(propTypes, type, {
+        value: type.toLowerCase(),
+        enumerable: true
+    });
+});
+}, 447, null, "realm/lib/browser/constants.js");
+__d(/* realm/lib/browser/collections.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.addMutationListener = addMutationListener;
+exports.removeMutationListener = removeMutationListener;
+exports.clearMutationListeners = clearMutationListeners;
+exports.fireMutationListeners = fireMutationListeners;
+exports.createCollection = createCollection;
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var _rpc = require(450    ); // 450 = ./rpc
+
+var mutationListeners = {};
+
+var Collection = function Collection() {
+    babelHelpers.classCallCheck(this, Collection);
+
+    throw new TypeError('Illegal constructor');
+};
+
+exports.default = Collection;
+function addMutationListener(realmId, callback) {
+    var listeners = mutationListeners[realmId] || (mutationListeners[realmId] = new Set());
+    listeners.add(callback);
+}
+
+function removeMutationListener(realmId, callback) {
+    var listeners = mutationListeners[realmId];
+    if (listeners) {
+        listeners.delete(callback);
+    }
+}
+
+function clearMutationListeners() {
+    mutationListeners = {};
+}
+
+function fireMutationListeners(realmId) {
+    var listeners = mutationListeners[realmId];
+    if (listeners) {
+        listeners.forEach(function (cb) {
+            return cb();
+        });
+    }
+}
+
+function isIndex(propertyName) {
+    return typeof propertyName === 'number' || typeof propertyName === 'string' && /^-?\d+$/.test(propertyName);
+}
+
+var mutable = Symbol('mutable');
+
+var traps = {
+    get: function get(collection, property, receiver) {
+        if (isIndex(property)) {
+            return (0, _rpc.getProperty)(collection[_constants.keys.realm], collection[_constants.keys.id], property);
+        }
+
+        return Reflect.get(collection, property, collection);
+    },
+    set: function set(collection, property, value, receiver) {
+        if (isIndex(property)) {
+            if (!collection[mutable]) {
+                return false;
+            }
+
+            (0, _rpc.setProperty)(collection[_constants.keys.realm], collection[_constants.keys.id], property, value);
+
+            if (value && typeof value == 'object') {
+                fireMutationListeners(collection[_constants.keys.realm]);
+            }
+
+            return true;
+        }
+
+        if (!Reflect.set(collection, property, value, collection)) {
+            throw new TypeError('Cannot assign to read only property \'' + property + '\'');
+        }
+        return true;
+    },
+    ownKeys: function ownKeys(collection) {
+        return Reflect.ownKeys(collection).concat(Array.from({ length: collection.length }, function (value, key) {
+            return String(key);
+        }));
+    },
+    getOwnPropertyDescriptor: function getOwnPropertyDescriptor(collection, property) {
+        var _this = this;
+
+        if (isIndex(property)) {
+            var descriptor = {
+                enumerable: true,
+                configurable: true,
+                writable: collection[mutable]
+            };
+            Reflect.defineProperty(descriptor, "value", { get: function get() {
+                    return _this.get(collection, property);
+                } });
+            return descriptor;
+        }
+
+        return Reflect.getOwnPropertyDescriptor(collection, property);
+    },
+    has: function has(collection, property) {
+        if (isIndex(property)) {
+            return true;
+        }
+
+        return Reflect.has(collection, property);
+    }
+};
+
+function createCollection(prototype, realmId, info, _mutable) {
+    var collection = Object.create(prototype);
+
+    Object.defineProperties(collection, {
+        'length': {
+            get: (0, _util.getterForProperty)('length')
+        },
+        'type': {
+            get: (0, _util.getterForProperty)('type')
+        },
+        'optional': {
+            get: (0, _util.getterForProperty)('optional')
+        }
+    });
+
+    collection[_constants.keys.realm] = realmId;
+    collection[_constants.keys.id] = info.id;
+    collection[_constants.keys.type] = info.type;
+    collection[mutable] = _mutable;
+
+    return new Proxy(collection, traps);
+}
+}, 448, null, "realm/lib/browser/collections.js");
+__d(/* realm/lib/browser/util.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.createMethods = createMethods;
+exports.createMethod = createMethod;
+exports.getterForProperty = getterForProperty;
+exports.setterForProperty = setterForProperty;
+
+var _collections = require(448            ); // 448 = ./collections
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _rpc = require(450    ); // 450 = ./rpc
+
+var rpc = babelHelpers.interopRequireWildcard(_rpc);
+function createMethods(prototype, type, methodNames, mutates) {
+    var props = {};
+
+    methodNames.forEach(function (name) {
+        props[name] = {
+            value: createMethod(type, name, mutates)
+        };
+    });
+
+    Object.defineProperties(prototype, props);
+}
+
+function createMethod(type, name, mutates) {
+    return function () {
+        var realmId = this[_constants.keys.realm];
+        var id = this[_constants.keys.id];
+
+        if (!realmId || !id) {
+            throw new TypeError(name + ' method was not called on a Realm object!');
+        }
+        if (this[_constants.keys.type] !== type) {
+            throw new TypeError(name + ' method was called on an object of the wrong type!');
+        }
+
+        try {
+            return rpc.callMethod(realmId, id, name, Array.from(arguments));
+        } finally {
+            if (mutates) {
+                (0, _collections.fireMutationListeners)(realmId);
+            }
+        }
+    };
+}
+
+function getterForProperty(name) {
+    return function () {
+        return rpc.getProperty(this[_constants.keys.realm], this[_constants.keys.id], name);
+    };
+}
+
+function setterForProperty(name) {
+    return function (value) {
+        var realmId = this[_constants.keys.realm];
+
+        rpc.setProperty(realmId, this[_constants.keys.id], name, value);
+
+        if (value && typeof value == 'object') {
+            (0, _collections.fireMutationListeners)(realmId);
+        }
+    };
+}
+}, 449, null, "realm/lib/browser/util.js");
+__d(/* realm/lib/browser/rpc.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.registerTypeConverter = registerTypeConverter;
+exports.createSession = createSession;
+exports.createRealm = createRealm;
+exports.createUser = createUser;
+exports._adminUser = _adminUser;
+exports.callMethod = callMethod;
+exports.getProperty = getProperty;
+exports.setProperty = setProperty;
+exports.getAllUsers = getAllUsers;
+exports.clearTestState = clearTestState;
+exports.deserialize = deserialize;
+
+var _base = require(451       ); // 451 = ./base64
+
+var base64 = babelHelpers.interopRequireWildcard(_base);
+
+var _constants = require(447          ); // 447 = ./constants
+
+var idKey = _constants.keys.id,
+    _realmKey = _constants.keys.realm;
+
+var registeredCallbacks = [];
+var typeConverters = {};
+
+var persistentCallback = Symbol("persistentCallback");
+
+var XMLHttpRequest = global.originalXMLHttpRequest || global.XMLHttpRequest;
+var sessionHost = void 0;
+var sessionId = void 0;
+
+if (XMLHttpRequest.__proto__ != global.XMLHttpRequestEventTarget) {
+    var fakeXMLHttpRequest = XMLHttpRequest;
+    delete global.XMLHttpRequest;
+    XMLHttpRequest = global.XMLHttpRequest;
+    global.XMLHttpRequest = fakeXMLHttpRequest;
+}
+
+registerTypeConverter(_constants.objectTypes.DATA, function (_, _ref) {
+    var value = _ref.value;
+    return base64.decode(value);
+});
+registerTypeConverter(_constants.objectTypes.DATE, function (_, _ref2) {
+    var value = _ref2.value;
+    return new Date(value);
+});
+registerTypeConverter(_constants.objectTypes.DICT, deserializeDict);
+registerTypeConverter(_constants.objectTypes.FUNCTION, deserializeFunction);
+
+function registerTypeConverter(type, handler) {
+    typeConverters[type] = handler;
+}
+
+function createSession(refreshAccessToken, host) {
+    refreshAccessToken[persistentCallback] = true;
+    sessionId = sendRequest('create_session', { refreshAccessToken: serialize(undefined, refreshAccessToken) }, host);
+    sessionHost = host;
+    return sessionId;
+}
+
+function createRealm(args) {
+    if (args) {
+        args = args.map(function (arg) {
+            return serialize(null, arg);
+        });
+    }
+
+    return sendRequest('create_realm', { arguments: args });
+}
+
+function createUser(args) {
+    args = args.map(function (arg) {
+        return serialize(null, arg);
+    });
+    var result = sendRequest('create_user', { arguments: args });
+    return deserialize(undefined, result);
+}
+
+function _adminUser(args) {
+    args = args.map(function (arg) {
+        return serialize(null, arg);
+    });
+    var result = sendRequest('_adminUser', { arguments: args });
+    return deserialize(undefined, result);
+}
+
+function callMethod(realmId, id, name, args) {
+    if (args) {
+        args = args.map(function (arg) {
+            return serialize(realmId, arg);
+        });
+    }
+
+    var result = sendRequest('call_method', { realmId: realmId, id: id, name: name, arguments: args });
+    return deserialize(realmId, result);
+}
+
+function getProperty(realmId, id, name) {
+    var result = sendRequest('get_property', { realmId: realmId, id: id, name: name });
+    return deserialize(realmId, result);
+}
+
+function setProperty(realmId, id, name, value) {
+    value = serialize(realmId, value);
+    sendRequest('set_property', { realmId: realmId, id: id, name: name, value: value });
+}
+
+function getAllUsers() {
+    var result = sendRequest('get_all_users');
+    return deserialize(undefined, result);
+}
+
+function clearTestState() {
+    sendRequest('clear_test_state');
+
+    registeredCallbacks = registeredCallbacks.filter(function (cb) {
+        return Reflect.has(cb, persistentCallback);
+    });
+}
+
+function registerCallback(callback) {
+    var key = registeredCallbacks.indexOf(callback);
+    return key >= 0 ? key : registeredCallbacks.push(callback) - 1;
+}
+
+function serialize(realmId, value) {
+    if (typeof value == 'undefined') {
+        return { type: _constants.objectTypes.UNDEFINED };
+    }
+    if (typeof value == 'function') {
+        return { type: _constants.objectTypes.FUNCTION, value: registerCallback(value) };
+    }
+    if (!value || typeof value != 'object') {
+        return { value: value };
+    }
+
+    var id = value[idKey];
+    if (id) {
+        return { id: id };
+    }
+
+    if (value instanceof Date) {
+        return { type: _constants.objectTypes.DATE, value: value.getTime() };
+    }
+
+    if (Array.isArray(value)) {
+        var array = value.map(function (item) {
+            return serialize(realmId, item);
+        });
+        return { value: array };
+    }
+
+    if (value instanceof ArrayBuffer || ArrayBuffer.isView(value)) {
+        return { type: _constants.objectTypes.DATA, value: base64.encode(value) };
+    }
+
+    var keys = Object.keys(value);
+    var values = keys.map(function (key) {
+        return serialize(realmId, value[key]);
+    });
+    return { type: _constants.objectTypes.DICT, keys: keys, values: values };
+}
+
+function deserialize(realmId, info) {
+    var type = info.type;
+    var handler = type && typeConverters[type];
+    if (handler) {
+        return handler(realmId, info);
+    }
+
+    var value = info.value;
+    if (value && Array.isArray(value)) {
+        return value.map(function (item) {
+            return deserialize(realmId, item);
+        });
+    }
+
+    return value;
+}
+
+function deserializeDict(realmId, info) {
+    var keys = info.keys,
+        values = info.values;
+
+    var object = {};
+
+    for (var i = 0, len = keys.length; i < len; i++) {
+        object[keys[i]] = deserialize(realmId, values[i]);
+    }
+
+    return object;
+}
+
+function deserializeFunction(realmId, info) {
+    return registeredCallbacks[info.value];
+}
+
+function makeRequest(url, data) {
+    var statusCode = void 0;
+    var responseText = void 0;
+
+    if (global.__debug__) {
+        var request = global.__debug__.require('sync-request');
+        var response = request('POST', url, {
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "text/plain;charset=UTF-8"
+            }
+        });
+
+        statusCode = response.statusCode;
+        responseText = response.body.toString('utf-8');
+    } else {
+        var body = JSON.stringify(data);
+        var _request = new XMLHttpRequest();
+
+        _request.open('POST', url, false);
+        _request.send(body);
+
+        statusCode = _request.status;
+        responseText = _request.responseText;
+    }
+
+    if (statusCode != 200) {
+        throw new Error(responseText);
+    }
+
+    return JSON.parse(responseText);
+}
+
+var pollTimeoutId = void 0;
+
+function deserialize_json_value(value) {
+    var result = {};
+    for (var index = 0; index < value.keys.length; index++) {
+        var propName = value.keys[index];
+        var propValue = value.values[index];
+        if (propValue.type && propValue.type == 'dict') {
+            result[propName] = deserialize_json_value(propValue);
+        } else {
+            result[propName] = propValue.value;
+        }
+    }
+
+    return result;
+}
+
+function sendRequest(command, data) {
+    var host = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : sessionHost;
+
+    clearTimeout(pollTimeoutId);
+    try {
+        if (!host) {
+            throw new Error('Must first create RPC session with a valid host');
+        }
+
+        data = babelHelpers.extends({}, data, sessionId ? { sessionId: sessionId } : null);
+
+        var url = 'http://' + host + '/' + command;
+        var response = makeRequest(url, data);
+
+        if (!response || response.error) {
+            var error = response && response.error;
+
+            if (error && error.replace) {
+                error = error.replace(/^[a-z]+: /i, '');
+            } else if (error.type && error.type === 'dict') {
+                var responseError = deserialize_json_value(error);
+                var responeMessage = void 0;
+                if (response.message && response.message !== '') {
+                    responeMessage = response.message.replace(/^[a-z]+: /i, '');
+                }
+
+                var exceptionToReport = new Error(responeMessage);
+                babelHelpers.extends(exceptionToReport, responseError);
+                throw exceptionToReport;
+            }
+
+            throw new Error(error || 'Invalid response for "' + command + '"');
+        }
+        var callback = response.callback;
+        if (callback != null) {
+            var result = void 0;
+            var _error = void 0;
+            try {
+                var realmId = data.realmId;
+                var thisObject = deserialize(realmId, response.this);
+                var args = deserialize(realmId, response.arguments);
+                result = registeredCallbacks[callback].apply(thisObject, args);
+                result = serialize(realmId, result);
+            } catch (e) {
+                _error = e.message || '' + e;
+            }
+
+            var callbackCommand = "callback_result";
+            if (command == 'callbacks_poll') {
+                callbackCommand = "callback_poll_result";
+            }
+
+            return sendRequest(callbackCommand, { callback: callback, result: result, error: _error, "callback_call_counter": response.callback_call_counter });
+        }
+
+        return response.result;
+    } finally {
+        pollTimeoutId = setTimeout(function () {
+            return sendRequest('callbacks_poll');
+        }, 100);
+    }
+}
+}, 450, null, "realm/lib/browser/rpc.js");
+__d(/* realm/lib/browser/base64.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.decode = decode;
+exports.encode = encode;
+var CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+var CHAR_MAP = {};
+
+Array.from(CHARS, function (char, i) {
+    return CHAR_MAP[char] = i;
+});
+
+function decode(base64) {
+    var length = base64.length;
+    var byteCount = length * 0.75;
+
+    if (base64[length - 1] === '=') {
+        byteCount--;
+        if (base64[length - 2] === '=') {
+            byteCount--;
+        }
+    }
+
+    var buffer = new ArrayBuffer(byteCount);
+    var bytes = new Uint8Array(buffer);
+
+    for (var i = 0, j = 0; i < length; i += 4) {
+        var index1 = CHAR_MAP[base64[i]];
+        var index2 = CHAR_MAP[base64[i + 1]];
+        var index3 = CHAR_MAP[base64[i + 2]];
+        var index4 = CHAR_MAP[base64[i + 3]];
+
+        bytes[j++] = (index1 << 2) + ((index2 & 0x30) >> 4);
+        bytes[j++] = ((index2 & 0x0f) << 4) + ((index3 & 0x3c) >> 2);
+        bytes[j++] = ((index3 & 0x03) << 6) + index4;
+    }
+
+    return buffer;
+}
+
+function encode(data) {
+    var byteOffset = 0;
+    var buffer;
+
+    if (data instanceof ArrayBuffer) {
+        buffer = data;
+    } else if (ArrayBuffer.isView(data)) {
+        buffer = data.buffer;
+        byteOffset = data.byteOffset;
+    } else {
+        throw new TypeError('Can only base64 encode ArrayBuffer and ArrayBufferView objects');
+    }
+
+    var byteCount = data.byteLength;
+    var bytes = new Uint8Array(buffer, byteOffset, byteCount);
+    var base64 = '';
+
+    for (var i = 0; i < byteCount; i += 3) {
+        base64 += CHARS[(bytes[i] & 0xfc) >> 2];
+        base64 += CHARS[((bytes[i] & 0x03) << 4) + ((bytes[i + 1] & 0xf0) >> 4)];
+        base64 += CHARS[((bytes[i + 1] & 0x0f) << 2) + ((bytes[i + 2] & 0xc0) >> 6)];
+        base64 += CHARS[bytes[i + 2] & 0x3f];
+    }
+
+    switch (byteCount % 3) {
+        case 1:
+            return base64.slice(0, -2) + '==';
+        case 2:
+            return base64.slice(0, -1) + '=';
+        default:
+            return base64;
+    }
+}
+}, 451, null, "realm/lib/browser/base64.js");
+__d(/* realm/lib/browser/lists.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.createList = createList;
+
+var _collections = require(448            ); // 448 = ./collections
+
+var _collections2 = babelHelpers.interopRequireDefault(_collections);
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var List = function (_Collection) {
+    babelHelpers.inherits(List, _Collection);
+
+    function List() {
+        babelHelpers.classCallCheck(this, List);
+        return babelHelpers.possibleConstructorReturn(this, (List.__proto__ || Object.getPrototypeOf(List)).apply(this, arguments));
+    }
+
+    return List;
+}(_collections2.default);
+
+exports.default = List;
+
+(0, _util.createMethods)(List.prototype, _constants.objectTypes.LIST, ['filtered', 'sorted', 'snapshot', 'isValid', 'indexOf', 'min', 'max', 'sum', 'avg', 'addListener', 'removeListener', 'removeAllListeners']);
+
+(0, _util.createMethods)(List.prototype, _constants.objectTypes.LIST, ['pop', 'shift', 'push', 'unshift', 'splice'], true);
+
+function createList(realmId, info) {
+    return (0, _collections.createCollection)(List.prototype, realmId, info, true);
+}
+}, 452, null, "realm/lib/browser/lists.js");
+__d(/* realm/lib/browser/results.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.createResults = createResults;
+
+var _collections = require(448            ); // 448 = ./collections
+
+var _collections2 = babelHelpers.interopRequireDefault(_collections);
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var Results = function (_Collection) {
+    babelHelpers.inherits(Results, _Collection);
+
+    function Results() {
+        babelHelpers.classCallCheck(this, Results);
+        return babelHelpers.possibleConstructorReturn(this, (Results.__proto__ || Object.getPrototypeOf(Results)).apply(this, arguments));
+    }
+
+    return Results;
+}(_collections2.default);
+
+exports.default = Results;
+
+(0, _util.createMethods)(Results.prototype, _constants.objectTypes.RESULTS, ['filtered', 'sorted', 'snapshot', 'isValid', 'indexOf', 'min', 'max', 'sum', 'avg', 'addListener', 'removeListener', 'removeAllListeners']);
+
+(0, _util.createMethods)(Results.prototype, _constants.objectTypes.RESULTS, ['update'], true);
+
+function createResults(realmId, info) {
+    return (0, _collections.createCollection)(Results.prototype, realmId, info);
+}
+}, 453, null, "realm/lib/browser/results.js");
+__d(/* realm/lib/browser/objects.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.clearRegisteredConstructors = clearRegisteredConstructors;
+exports.createObject = createObject;
+exports.registerConstructors = registerConstructors;
+exports.typeForConstructor = typeForConstructor;
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var registeredConstructors = {};
+var registeredRealmPaths = {};
+
+var RealmObject = function RealmObject() {
+    babelHelpers.classCallCheck(this, RealmObject);
+};
+
+exports.default = RealmObject;
+
+(0, _util.createMethods)(RealmObject.prototype, _constants.objectTypes.OBJECT, ['isValid', 'objectSchema', 'linkingObjects', '_objectId', '_isSameObject']);
+
+function clearRegisteredConstructors() {
+    registeredConstructors = {};
+    registeredRealmPaths = {};
+}
+
+function createObject(realmId, info) {
+    var schema = info.schema;
+    var realmPath = registeredRealmPaths[realmId];
+    var constructor = (registeredConstructors[realmPath] || {})[schema.name];
+    var object = Object.create(constructor ? constructor.prototype : RealmObject.prototype);
+
+    object[_constants.keys.realm] = realmId;
+    object[_constants.keys.id] = info.id;
+    object[_constants.keys.type] = info.type;
+
+    schema.properties.forEach(function (name) {
+        Object.defineProperty(object, name, {
+            enumerable: true,
+            get: (0, _util.getterForProperty)(name),
+            set: (0, _util.setterForProperty)(name)
+        });
+    });
+
+    if (constructor) {
+        var result = constructor.call(object);
+        if (result != null && result != object) {
+            throw new Error('Realm object constructor must not return another value');
+        }
+    }
+
+    return object;
+}
+
+function registerConstructors(realmId, realmPath, constructors) {
+    registeredRealmPaths[realmId] = realmPath;
+
+    if (constructors) {
+        registeredConstructors[realmPath] = constructors;
+    }
+}
+
+function typeForConstructor(realmId, constructor) {
+    var realmPath = registeredRealmPaths[realmId];
+    var constructors = registeredConstructors[realmPath];
+
+    for (var name in constructors) {
+        if (constructors[name] == constructor) {
+            return name;
+        }
+    }
+
+    throw new Error("Constructor was not registered in the schema for this Realm");
+}
+}, 454, null, "realm/lib/browser/objects.js");
+__d(/* realm/lib/browser/user.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.createUser = createUser;
+
+var _rpc = require(450    ); // 450 = ./rpc
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var User = function () {
+    function User() {
+        babelHelpers.classCallCheck(this, User);
+    }
+
+    babelHelpers.createClass(User, null, [{
+        key: 'createUser',
+        value: function createUser(server, identity, token, isAdminToken, isAdminUser) {
+            return (0, _rpc.createUser)(Array.from(arguments));
+        }
+    }, {
+        key: '_adminUser',
+        value: function _adminUser(adminToken, server) {
+            return (0, _rpc._adminUser)(Array.from(arguments));
+        }
+    }, {
+        key: 'all',
+        get: function get() {
+            return (0, _rpc.getAllUsers)();
+        }
+    }]);
+    return User;
+}();
+
+exports.default = User;
+
+
+(0, _util.createMethods)(User.prototype, _constants.objectTypes.USER, ['logout', '_sessionForOnDiskPath']);
+
+function createUser(realmId, info) {
+    var userProxy = Object.create(User.prototype);
+
+    userProxy[_constants.keys.realm] = "(User object)";
+
+    userProxy[_constants.keys.id] = info.id;
+    userProxy[_constants.keys.type] = _constants.objectTypes.USER;
+    babelHelpers.extends(userProxy, info.data);
+
+    return userProxy;
+}
+}, 455, null, "realm/lib/browser/user.js");
+__d(/* realm/lib/browser/session.js */function(global, require, module, exports) {
+
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.createSession = createSession;
+
+var _constants = require(447          ); // 447 = ./constants
+
+var _util = require(449     ); // 449 = ./util
+
+var _rpc = require(450    ); // 450 = ./rpc
+
+var Session = function Session() {
+    babelHelpers.classCallCheck(this, Session);
+};
+
+exports.default = Session;
+
+
+Object.defineProperties(Session.prototype, {
+    url: { get: (0, _util.getterForProperty)('url') },
+    state: { get: (0, _util.getterForProperty)('state') }
+});
+
+(0, _util.createMethods)(Session.prototype, _constants.objectTypes.SESSION, ['_refreshAccessToken', '_simulateError', 'addProgressNotification', 'removeProgressNotification']);
+
+function createSession(realmId, info) {
+    var sessionProxy = Object.create(Session.prototype);
+
+    sessionProxy[_constants.keys.realm] = "(Session object)";
+
+    sessionProxy[_constants.keys.id] = info.id;
+    sessionProxy[_constants.keys.type] = _constants.objectTypes.SESSION;
+    sessionProxy.user = (0, _rpc.deserialize)(realmId, info.data.user);
+    sessionProxy.config = (0, _rpc.deserialize)(realmId, info.data.config);
+
+    return sessionProxy;
+}
+}, 456, null, "realm/lib/browser/session.js");
+__d(/* realm/lib/user-methods.js */function(global, require, module, exports) {
+
+'use strict';
+
+var AuthError = require(458       ).AuthError; // 458 = ./errors
+var permissionApis = require(459               ); // 459 = ./permission-api
+
+var require_method = require;
+
+function node_require(module) {
+    return require_method(module);
+}
+
+function checkTypes(args, types) {
+    args = Array.prototype.slice.call(args);
+    for (var i = 0; i < types.length; ++i) {
+        if (args.length > i && typeof args[i] !== types[i]) {
+            throw new TypeError('param ' + i + ' must be of type ' + types[i]);
+        }
+    }
+}
+
+var performFetch = typeof fetch === 'undefined' ? node_require('node-fetch') : fetch;
+
+var url_parse = require(460        ); // 460 = url-parse
+
+var postHeaders = {
+    'content-type': 'application/json;charset=utf-8',
+    'accept': 'application/json'
+};
+
+function auth_url(server) {
+    if (server.charAt(server.length - 1) != '/') {
+        return server + '/auth';
+    }
+    return server + 'auth';
+}
+
+function scheduleAccessTokenRefresh(user, localRealmPath, realmUrl, expirationDate) {
+    var refreshBuffer = 10 * 1000;
+    var timeout = expirationDate - Date.now() - refreshBuffer;
+    setTimeout(function () {
+        return refreshAccessToken(user, localRealmPath, realmUrl);
+    }, timeout);
+}
+
+function print_error() {
+    (console.error || console.log).apply(console, arguments);
+}
+
+function refreshAccessToken(user, localRealmPath, realmUrl) {
+    if (!user.server) {
+        throw new Error("Server for user must be specified");
+    }
+
+    var parsedRealmUrl = url_parse(realmUrl);
+    var url = auth_url(user.server);
+    var options = {
+        method: 'POST',
+        body: JSON.stringify({
+            data: user.token,
+            path: parsedRealmUrl.pathname,
+            provider: 'realm',
+            app_id: ''
+        }),
+        headers: postHeaders,
+
+        timeout: 1000.0
+    };
+    performFetch(url, options).then(function (response) {
+        return response.json().then(function (json) {
+            return { response: response, json: json };
+        });
+    }).then(function (responseAndJson) {
+        var response = responseAndJson.response;
+        var json = responseAndJson.json;
+
+        var newUser = user.constructor.all[user.identity];
+        if (newUser) {
+            var session = newUser._sessionForOnDiskPath(localRealmPath);
+            if (session) {
+                var errorHandler = session.config.error;
+                if (response.status != 200) {
+                    var error = new AuthError(json);
+                    if (errorHandler) {
+                        errorHandler(session, error);
+                    } else {
+                        print_error('Unhandled session token refresh error', error);
+                    }
+                } else if (session.state !== 'invalid') {
+                    parsedRealmUrl.set('pathname', json.access_token.token_data.path);
+                    session._refreshAccessToken(json.access_token.token, parsedRealmUrl.href);
+
+                    if (errorHandler && errorHandler._notifyOnAccessTokenRefreshed) {
+                        errorHandler(session, errorHandler._notifyOnAccessTokenRefreshed);
+                    }
+
+                    var tokenExpirationDate = new Date(json.access_token.token_data.expires * 1000);
+                    scheduleAccessTokenRefresh(newUser, localRealmPath, realmUrl, tokenExpirationDate);
+                }
+            } else {
+                print_error('Unhandled session token refresh error: could not look up session at path ' + localRealmPath);
+            }
+        }
+    }).catch(function (e) {
+        print_error(e);
+
+        setTimeout(function () {
+            return refreshAccessToken(user, localRealmPath, realmUrl);
+        }, 10 * 1000);
+    });
+}
+
+function _authenticate(userConstructor, server, json, callback) {
+    json.app_id = '';
+    var url = auth_url(server);
+    var options = {
+        method: 'POST',
+        body: JSON.stringify(json),
+        headers: postHeaders,
+        open_timeout: 5000
+    };
+
+    var promise = performFetch(url, options).then(function (response) {
+        if (response.status !== 200) {
+            return response.json().then(function (body) {
+                return Promise.reject(new AuthError(body));
+            });
+        } else {
+            return response.json().then(function (body) {
+                var token = body.refresh_token.token;
+                var identity = body.refresh_token.token_data.identity;
+                var isAdmin = body.refresh_token.token_data.is_admin;
+                return userConstructor.createUser(server, identity, token, false, isAdmin);
+            });
+        }
+    });
+
+    if (callback) {
+        promise.then(function (user) {
+            callback(null, user);
+        }).catch(function (err) {
+            callback(err);
+        });
+    } else {
+        return promise;
+    }
+}
+
+var staticMethods = {
+    get current() {
+        var allUsers = this.all;
+        var keys = Object.keys(allUsers);
+        if (keys.length === 0) {
+            return undefined;
+        } else if (keys.length > 1) {
+            throw new Error("Multiple users are logged in");
+        }
+
+        return allUsers[keys[0]];
+    },
+
+    adminUser: function adminUser(token, server) {
+        checkTypes(arguments, ['string', 'string']);
+        return this._adminUser(server, token);
+    },
+    register: function register(server, username, password, callback) {
+        checkTypes(arguments, ['string', 'string', 'string', 'function']);
+        var json = {
+            provider: 'password',
+            user_info: { password: password, register: true },
+            data: username
+        };
+
+        if (callback) {
+            var message = "register(..., callback) is now deprecated in favor of register(): Promise<User>. This function argument will be removed in future versions.";
+            (console.warn || console.log).call(console, message);
+        }
+
+        return _authenticate(this, server, json, callback);
+    },
+    login: function login(server, username, password, callback) {
+        checkTypes(arguments, ['string', 'string', 'string', 'function']);
+        var json = {
+            provider: 'password',
+            user_info: { password: password },
+            data: username
+        };
+
+        if (callback) {
+            var message = "login(..., callback) is now deprecated in favor of login(): Promise<User>. This function argument will be removed in future versions.";
+            (console.warn || console.log).call(console, message);
+        }
+
+        return _authenticate(this, server, json, callback);
+    },
+    registerWithProvider: function registerWithProvider(server, options, callback) {
+        if (arguments.length === 4) {
+            checkTypes(arguments, ['string', 'string', 'string', 'function']);
+            options = {
+                provider: arguments[1],
+                providerToken: arguments[2]
+            };
+            callback = arguments[3];
+        } else {
+            checkTypes(arguments, ['string', 'object', 'function']);
+        }
+
+        var json = {
+            provider: options.provider,
+            data: options.providerToken
+        };
+
+        if (options.userInfo) {
+            json.user_info = options.userInfo;
+        }
+
+        if (callback) {
+            var message = "registerWithProvider(..., callback) is now deprecated in favor of registerWithProvider(): Promise<User>. This function argument will be removed in future versions.";
+            (console.warn || console.log).call(console, message);
+        }
+
+        return _authenticate(this, server, json, callback);
+    },
+
+
+    _refreshAccessToken: refreshAccessToken
+};
+
+var instanceMethods = {
+    openManagementRealm: function openManagementRealm() {
+        var url = url_parse(this.server);
+        if (url.protocol === 'http:') {
+            url.set('protocol', 'realm:');
+        } else if (url.protocol === 'https:') {
+            url.set('protocol', 'realms:');
+        } else {
+            throw new Error('Unexpected user auth url: ' + this.server);
+        }
+
+        url.set('pathname', '/~/__management');
+
+        return new this.constructor._realmConstructor({
+            schema: require(463                  ), // 463 = ./management-schema
+            sync: {
+                user: this,
+                url: url.href
+            }
+        });
+    },
+    retrieveAccount: function retrieveAccount(provider, provider_id) {
+        checkTypes(arguments, ['string', 'string']);
+        var url = url_parse(this.server);
+        url.set('pathname', '/auth/users/' + provider + '/' + provider_id);
+        var headers = {
+            Authorization: this.token
+        };
+        var options = {
+            method: 'GET',
+            headers: headers,
+            open_timeout: 5000
+        };
+        return performFetch(url.href, options).then(function (response) {
+            if (response.status !== 200) {
+                return response.json().then(function (body) {
+                    throw new AuthError(body);
+                });
+            } else {
+                return response.json();
+            }
+        });
+    }
+};
+
+babelHelpers.extends(instanceMethods, permissionApis);
+
+module.exports = {
+    static: staticMethods,
+    instance: instanceMethods
+};
+}, 457, null, "realm/lib/user-methods.js");
+__d(/* realm/lib/errors.js */function(global, require, module, exports) {
+
+'use strict';
+
+function AuthError(problem) {
+    var error = Error.call(this, problem.title);
+
+    this.name = 'AuthError';
+    this.message = error.message;
+    this.stack = error.stack;
+
+    babelHelpers.extends(this, problem);
+}
+
+AuthError.__proto__ = Error;
+AuthError.prototype.__proto__ = Error.prototype;
+
+exports['AuthError'] = AuthError;
+}, 458, null, "realm/lib/errors.js");
+__d(/* realm/lib/permission-api.js */function(global, require, module, exports) {
+
+'use strict';
+
+var url_parse = require(460        ); // 460 = url-parse
+var managementSchema = require(463                  ); // 463 = ./management-schema
+
+function generateUniqueId() {
+  var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+    var r = Math.random() * 16 | 0,
+        v = c == 'x' ? r : r & 0x3 | 0x8;
+    return v.toString(16);
+  });
+  return uuid;
+}
+
+var permissionSchema = [{
+  name: 'Permission',
+  properties: {
+    userId: { type: 'string' },
+    path: { type: 'string' },
+    mayRead: { type: 'bool', optional: false },
+    mayWrite: { type: 'bool', optional: false },
+    mayManage: { type: 'bool', optional: false },
+    updatedAt: { type: 'date', optional: false }
+  }
+}];
+
+var specialPurposeRealmsKey = '_specialPurposeRealms';
+
+function getSpecialPurposeRealm(user, realmName, schema) {
+  if (!user.hasOwnProperty(specialPurposeRealmsKey)) {
+    user[specialPurposeRealmsKey] = {};
+  }
+
+  if (user[specialPurposeRealmsKey].hasOwnProperty(realmName)) {
+    return Promise.resolve(user[specialPurposeRealmsKey][realmName]);
+  }
+
+  var url = url_parse(user.server);
+  if (url.protocol === 'http:') {
+    url.set('protocol', 'realm:');
+  } else if (url.protocol === 'https:') {
+    url.set('protocol', 'realms:');
+  } else {
+    throw new Error('Unexpected user auth url: ' + user.server);
+  }
+
+  url.set('pathname', '/~/' + realmName);
+
+  var config = {
+    schema: schema,
+    sync: {
+      user: user,
+      url: url.href
+    }
+  };
+
+  var Realm = user.constructor._realmConstructor;
+  return Realm.open(config).then(function (realm) {
+    user[specialPurposeRealmsKey][realmName] = realm;
+    return realm;
+  });
+}
+
+function createInManagementRealm(user, modelName, modelInitializer) {
+  return getSpecialPurposeRealm(user, '__management', managementSchema).then(function (managementRealm) {
+    return new Promise(function (resolve, reject) {
+      try {
+        var o = void 0;
+
+        var listener = function listener() {
+          if (!o) {
+            return;
+          }
+
+          var statusCode = o.statusCode;
+          if (typeof statusCode === 'number') {
+            managementRealm.removeListener('change', listener);
+
+            if (statusCode === 0) {
+              setTimeout(function () {
+                return resolve(o);
+              }, 1);
+            } else {
+              var e = new Error(o.statusMessage);
+              e.statusCode = statusCode;
+              e.managementObject = o;
+              setTimeout(function () {
+                return reject(e);
+              }, 1);
+            }
+          }
+        };
+
+        managementRealm.addListener('change', listener);
+
+        managementRealm.write(function () {
+          o = managementRealm.create(modelName, modelInitializer);
+        });
+      } catch (e) {
+        reject(e);
+      }
+    });
+  });
+}
+
+var accessLevels = ['none', 'read', 'write', 'admin'];
+var offerAccessLevels = ['read', 'write', 'admin'];
+
+module.exports = {
+  getGrantedPermissions: function getGrantedPermissions(recipient) {
+    var _this = this;
+
+    if (recipient && ['currentUser', 'otherUser', 'any'].indexOf(recipient) === -1) {
+      return Promise.reject(new Error('\'' + recipient + '\' is not a valid recipient type. Must be \'any\', \'currentUser\' or \'otherUser\'.'));
+    }
+
+    return getSpecialPurposeRealm(this, '__permission', permissionSchema).then(function (permissionRealm) {
+      var permissions = permissionRealm.objects('Permission').filtered('NOT path ENDSWITH "__permission" AND NOT path ENDSWITH "__management"');
+
+      if (recipient === 'currentUser') {
+        permissions = permissions.filtered('userId = $0', _this.identity);
+      } else if (recipient === 'otherUser') {
+        permissions = permissions.filtered('userId != $0', _this.identity);
+      }
+      return permissions;
+    });
+  },
+  applyPermissions: function applyPermissions(condition, realmUrl, accessLevel) {
+    if (!realmUrl) {
+      return Promise.reject(new Error('realmUrl must be specified'));
+    }
+
+    if (accessLevels.indexOf(accessLevel) === -1) {
+      return Promise.reject(new Error('\'' + accessLevel + '\' is not a valid access level. Must be ' + accessLevels.join(', ') + '.'));
+    }
+
+    var mayRead = accessLevel === 'read' || accessLevel === 'write' || accessLevel === 'admin';
+    var mayWrite = accessLevel === 'write' || accessLevel === 'admin';
+    var mayManage = accessLevel === 'admin';
+
+    var permissionChange = {
+      id: generateUniqueId(),
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      realmUrl: realmUrl,
+      mayRead: mayRead,
+      mayWrite: mayWrite,
+      mayManage: mayManage
+    };
+
+    if (condition.hasOwnProperty('userId')) {
+      permissionChange.userId = condition.userId;
+    } else {
+      permissionChange.userId = '';
+      permissionChange.metadataKey = condition.metadataKey;
+      permissionChange.metadataValue = condition.metadataValue;
+    }
+
+    return createInManagementRealm(this, 'PermissionChange', permissionChange);
+  },
+  offerPermissions: function offerPermissions(realmUrl, accessLevel, expiresAt) {
+    if (!realmUrl) {
+      return Promise.reject(new Error('realmUrl must be specified'));
+    }
+
+    if (offerAccessLevels.indexOf(accessLevel) === -1) {
+      return Promise.reject(new Error('\'' + accessLevel + '\' is not a valid access level. Must be ' + offerAccessLevels.join(', ') + '.'));
+    }
+
+    var mayRead = true;
+    var mayWrite = accessLevel === 'write' || accessLevel === 'admin';
+    var mayManage = accessLevel === 'admin';
+
+    var permissionOffer = {
+      id: generateUniqueId(),
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      expiresAt: expiresAt,
+      realmUrl: realmUrl,
+      mayRead: mayRead,
+      mayWrite: mayWrite,
+      mayManage: mayManage
+    };
+
+    return createInManagementRealm(this, 'PermissionOffer', permissionOffer).then(function (appliedOffer) {
+      return appliedOffer.token;
+    });
+  },
+  acceptPermissionOffer: function acceptPermissionOffer(token) {
+    if (!token) {
+      return Promise.reject(new Error('Offer token must be specified'));
+    }
+
+    var permissionOfferResponse = {
+      id: generateUniqueId(),
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      token: token
+    };
+
+    return createInManagementRealm(this, 'PermissionOfferResponse', permissionOfferResponse).then(function (appliedReponse) {
+      return appliedReponse.realmUrl;
+    });
+  },
+  invalidatePermissionOffer: function invalidatePermissionOffer(permissionOfferOrToken) {
+    return getSpecialPurposeRealm(this, '__management', managementSchema).then(function (managementRealm) {
+      var permissionOffer = void 0;
+
+      if (typeof permissionOfferOrToken === 'string') {
+        var q = managementRealm.objects('PermissionOffer').filtered('token = $0', permissionOfferOrToken);
+
+        if (q.length === 0) {
+          throw new Error("No permission offers with the given token were found");
+        }
+
+        permissionOffer = q[0];
+      } else {
+        permissionOffer = permissionOfferOrToken;
+      }
+
+      managementRealm.write(function () {
+        permissionOffer.expiresAt = new Date();
+      });
+    });
+  }
+};
+}, 459, null, "realm/lib/permission-api.js");
+__d(/* url-parse/index.js */function(global, require, module, exports) {'use strict';
+
+var required = require(461            ), // 461 = requires-port
+    qs = require(462             ), // 462 = querystringify
+    protocolre = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\S\s]*)/i,
+    slashes = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//;
+
+var rules = [['#', 'hash'], ['?', 'query'], ['/', 'pathname'], ['@', 'auth', 1], [NaN, 'host', undefined, 1, 1], [/:(\d+)$/, 'port', undefined, 1], [NaN, 'hostname', undefined, 1, 1]];
+
+var ignore = { hash: 1, query: 1 };
+
+function lolcation(loc) {
+  loc = loc || global.location || {};
+
+  var finaldestination = {},
+      type = typeof loc,
+      key;
+
+  if ('blob:' === loc.protocol) {
+    finaldestination = new URL(unescape(loc.pathname), {});
+  } else if ('string' === type) {
+    finaldestination = new URL(loc, {});
+    for (key in ignore) {
+      delete finaldestination[key];
+    }
+  } else if ('object' === type) {
+    for (key in loc) {
+      if (key in ignore) continue;
+      finaldestination[key] = loc[key];
+    }
+
+    if (finaldestination.slashes === undefined) {
+      finaldestination.slashes = slashes.test(loc.href);
+    }
+  }
+
+  return finaldestination;
+}
+
+function extractProtocol(address) {
+  var match = protocolre.exec(address);
+
+  return {
+    protocol: match[1] ? match[1].toLowerCase() : '',
+    slashes: !!match[2],
+    rest: match[3]
+  };
+}
+
+function resolve(relative, base) {
+  var path = (base || '/').split('/').slice(0, -1).concat(relative.split('/')),
+      i = path.length,
+      last = path[i - 1],
+      unshift = false,
+      up = 0;
+
+  while (i--) {
+    if (path[i] === '.') {
+      path.splice(i, 1);
+    } else if (path[i] === '..') {
+      path.splice(i, 1);
+      up++;
+    } else if (up) {
+      if (i === 0) unshift = true;
+      path.splice(i, 1);
+      up--;
+    }
+  }
+
+  if (unshift) path.unshift('');
+  if (last === '.' || last === '..') path.push('');
+
+  return path.join('/');
+}
+
+function URL(address, location, parser) {
+  if (!(this instanceof URL)) {
+    return new URL(address, location, parser);
+  }
+
+  var relative,
+      extracted,
+      parse,
+      instruction,
+      index,
+      key,
+      instructions = rules.slice(),
+      type = typeof location,
+      url = this,
+      i = 0;
+
+  if ('object' !== type && 'string' !== type) {
+    parser = location;
+    location = null;
+  }
+
+  if (parser && 'function' !== typeof parser) parser = qs.parse;
+
+  location = lolcation(location);
+
+  extracted = extractProtocol(address || '');
+  relative = !extracted.protocol && !extracted.slashes;
+  url.slashes = extracted.slashes || relative && location.slashes;
+  url.protocol = extracted.protocol || location.protocol || '';
+  address = extracted.rest;
+
+  if (!extracted.slashes) instructions[2] = [/(.*)/, 'pathname'];
+
+  for (; i < instructions.length; i++) {
+    instruction = instructions[i];
+    parse = instruction[0];
+    key = instruction[1];
+
+    if (parse !== parse) {
+      url[key] = address;
+    } else if ('string' === typeof parse) {
+      if (~(index = address.indexOf(parse))) {
+        if ('number' === typeof instruction[2]) {
+          url[key] = address.slice(0, index);
+          address = address.slice(index + instruction[2]);
+        } else {
+          url[key] = address.slice(index);
+          address = address.slice(0, index);
+        }
+      }
+    } else if (index = parse.exec(address)) {
+      url[key] = index[1];
+      address = address.slice(0, index.index);
+    }
+
+    url[key] = url[key] || (relative && instruction[3] ? location[key] || '' : '');
+
+    if (instruction[4]) url[key] = url[key].toLowerCase();
+  }
+
+  if (parser) url.query = parser(url.query);
+
+  if (relative && location.slashes && url.pathname.charAt(0) !== '/' && (url.pathname !== '' || location.pathname !== '')) {
+    url.pathname = resolve(url.pathname, location.pathname);
+  }
+
+  if (!required(url.port, url.protocol)) {
+    url.host = url.hostname;
+    url.port = '';
+  }
+
+  url.username = url.password = '';
+  if (url.auth) {
+    instruction = url.auth.split(':');
+    url.username = instruction[0] || '';
+    url.password = instruction[1] || '';
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:' ? url.protocol + '//' + url.host : 'null';
+
+  url.href = url.toString();
+}
+
+function set(part, value, fn) {
+  var url = this;
+
+  switch (part) {
+    case 'query':
+      if ('string' === typeof value && value.length) {
+        value = (fn || qs.parse)(value);
+      }
+
+      url[part] = value;
+      break;
+
+    case 'port':
+      url[part] = value;
+
+      if (!required(value, url.protocol)) {
+        url.host = url.hostname;
+        url[part] = '';
+      } else if (value) {
+        url.host = url.hostname + ':' + value;
+      }
+
+      break;
+
+    case 'hostname':
+      url[part] = value;
+
+      if (url.port) value += ':' + url.port;
+      url.host = value;
+      break;
+
+    case 'host':
+      url[part] = value;
+
+      if (/:\d+$/.test(value)) {
+        value = value.split(':');
+        url.port = value.pop();
+        url.hostname = value.join(':');
+      } else {
+        url.hostname = value;
+        url.port = '';
+      }
+
+      break;
+
+    case 'protocol':
+      url.protocol = value.toLowerCase();
+      url.slashes = !fn;
+      break;
+
+    case 'pathname':
+    case 'hash':
+      if (value) {
+        var char = part === 'pathname' ? '/' : '#';
+        url[part] = value.charAt(0) !== char ? char + value : value;
+      } else {
+        url[part] = value;
+      }
+      break;
+
+    default:
+      url[part] = value;
+  }
+
+  for (var i = 0; i < rules.length; i++) {
+    var ins = rules[i];
+
+    if (ins[4]) url[ins[1]] = url[ins[1]].toLowerCase();
+  }
+
+  url.origin = url.protocol && url.host && url.protocol !== 'file:' ? url.protocol + '//' + url.host : 'null';
+
+  url.href = url.toString();
+
+  return url;
+}
+
+function toString(stringify) {
+  if (!stringify || 'function' !== typeof stringify) stringify = qs.stringify;
+
+  var query,
+      url = this,
+      protocol = url.protocol;
+
+  if (protocol && protocol.charAt(protocol.length - 1) !== ':') protocol += ':';
+
+  var result = protocol + (url.slashes ? '//' : '');
+
+  if (url.username) {
+    result += url.username;
+    if (url.password) result += ':' + url.password;
+    result += '@';
+  }
+
+  result += url.host + url.pathname;
+
+  query = 'object' === typeof url.query ? stringify(url.query) : url.query;
+  if (query) result += '?' !== query.charAt(0) ? '?' + query : query;
+
+  if (url.hash) result += url.hash;
+
+  return result;
+}
+
+URL.prototype = { set: set, toString: toString };
+
+URL.extractProtocol = extractProtocol;
+URL.location = lolcation;
+URL.qs = qs;
+
+module.exports = URL;
+}, 460, null, "url-parse/index.js");
+__d(/* requires-port/index.js */function(global, require, module, exports) {'use strict';
+
+module.exports = function required(port, protocol) {
+  protocol = protocol.split(':')[0];
+  port = +port;
+
+  if (!port) return false;
+
+  switch (protocol) {
+    case 'http':
+    case 'ws':
+      return port !== 80;
+
+    case 'https':
+    case 'wss':
+      return port !== 443;
+
+    case 'ftp':
+      return port !== 21;
+
+    case 'gopher':
+      return port !== 70;
+
+    case 'file':
+      return false;
+  }
+
+  return port !== 0;
+};
+}, 461, null, "requires-port/index.js");
+__d(/* querystringify/index.js */function(global, require, module, exports) {'use strict';
+
+var has = Object.prototype.hasOwnProperty;
+
+function decode(input) {
+  return decodeURIComponent(input.replace(/\+/g, ' '));
+}
+
+function querystring(query) {
+  var parser = /([^=?&]+)=?([^&]*)/g,
+      result = {},
+      part;
+
+  for (; part = parser.exec(query); result[decode(part[1])] = decode(part[2])) {}
+
+  return result;
+}
+
+function querystringify(obj, prefix) {
+  prefix = prefix || '';
+
+  var pairs = [];
+
+  if ('string' !== typeof prefix) prefix = '?';
+
+  for (var key in obj) {
+    if (has.call(obj, key)) {
+      pairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(obj[key]));
+    }
+  }
+
+  return pairs.length ? prefix + pairs.join('&') : '';
+}
+
+exports.stringify = querystringify;
+exports.parse = querystring;
+}, 462, null, "querystringify/index.js");
+__d(/* realm/lib/management-schema.js */function(global, require, module, exports) {
+
+'use strict';
+
+module.exports = [{
+    name: 'PermissionChange',
+    primaryKey: 'id',
+    properties: {
+        id: { type: 'string' },
+        createdAt: { type: 'date', default: new Date() },
+        updatedAt: { type: 'date', default: new Date() },
+        statusCode: { type: 'int', optional: true },
+        statusMessage: { type: 'string', optional: true },
+        userId: { type: 'string' },
+        realmUrl: { type: 'string' },
+        metadataKey: { type: 'string', optional: true },
+        metadataValue: { type: 'string', optional: true },
+        mayRead: { type: 'bool', optional: true },
+        mayWrite: { type: 'bool', optional: true },
+        mayManage: { type: 'bool', optional: true }
+    }
+}, {
+    name: 'PermissionOffer',
+    primaryKey: 'id',
+    properties: {
+        id: { type: 'string', optional: false, indexed: true },
+        createdAt: { type: 'date', default: new Date() },
+        updatedAt: { type: 'date', default: new Date() },
+        statusCode: { type: 'int', optional: true },
+        statusMessage: { type: 'string', optional: true },
+        token: { type: 'string', optional: true, indexed: true },
+        realmUrl: { type: 'string' },
+        mayRead: { type: 'bool', default: false },
+        mayWrite: { type: 'bool', default: false },
+        mayManage: { type: 'bool', default: false },
+        expiresAt: { type: 'date', optional: true }
+    }
+}, {
+    name: 'PermissionOfferResponse',
+    primaryKey: 'id',
+    properties: {
+        id: { type: 'string', optional: false },
+        createdAt: { type: 'date', default: new Date() },
+        updatedAt: { type: 'date', default: new Date() },
+        statusCode: { type: 'int', optional: true },
+        statusMessage: { type: 'string', optional: true },
+        token: { type: 'string' },
+        realmUrl: { type: 'string', optional: true }
+    }
+}];
+}, 463, null, "realm/lib/management-schema.js");
+__d(/* realm/lib/extensions.js */function(global, require, module, exports) {
+
+'use strict';
+
+var getOwnPropertyDescriptors = Object.getOwnPropertyDescriptors || function (obj) {
+    return Object.getOwnPropertyNames(obj).reduce(function (descriptors, name) {
+        descriptors[name] = Object.getOwnPropertyDescriptor(obj, name);
+        return descriptors;
+    }, {});
+};
+
+function setConstructorOnPrototype(klass) {
+    if (klass.prototype.constructor !== klass) {
+        Object.defineProperty(klass.prototype, 'constructor', { value: klass, configurable: true, writable: true });
+    }
+}
+
+function waitForDownloadConfig(config) {
+    if (!config) {
+        return { _cache: false };
+    }
+
+    if (typeof config == 'string') {
+        return { path: config, _cache: false };
+    }
+
+    if (typeof config == 'object') {
+        return babelHelpers.extends({}, config, { schema: undefined, schemaVersion: undefined, _cache: false });
+    }
+
+    return config;
+}
+
+module.exports = function (realmConstructor) {
+    Object.defineProperties(realmConstructor.Collection.prototype, require(465                   )); // 465 = ./collection-methods
+
+    setConstructorOnPrototype(realmConstructor.Collection);
+    setConstructorOnPrototype(realmConstructor.List);
+    setConstructorOnPrototype(realmConstructor.Results);
+    setConstructorOnPrototype(realmConstructor.Object);
+
+    Object.defineProperties(realmConstructor, getOwnPropertyDescriptors({
+        open: function open(config) {
+            var syncSession = void 0;
+            var promise = new Promise(function (resolve, reject) {
+                var realm = new realmConstructor(waitForDownloadConfig(config));
+                realm._waitForDownload(function (session) {
+                    syncSession = session;
+                }, function (error) {
+                    if (error) {
+                        setTimeout(function () {
+                            reject(error);
+                        }, 1);
+                    } else {
+                        try {
+                            var syncedRealm = new realmConstructor(config);
+                            setTimeout(function () {
+                                resolve(syncedRealm);
+                            }, 1);
+                        } catch (e) {
+                            reject(e);
+                        }
+                    }
+                });
+            });
+
+            promise.progress = function (callback) {
+                if (syncSession) {
+                    syncSession.addProgressNotification('download', 'forCurrentlyOutstandingWork', callback);
+                }
+
+                return promise;
+            };
+
+            return promise;
+        },
+        openAsync: function openAsync(config, callback, progressCallback) {
+            var message = "Realm.openAsync is now deprecated in favor of Realm.open. This function will be removed in future versions.";
+            (console.warn || console.log).call(console, message);
+
+            var promise = this.open(config);
+            if (progressCallback) {
+                promise.progress(progressCallback);
+            }
+
+            promise.then(function (realm) {
+                callback(null, realm);
+            }).catch(function (error) {
+                callback(error);
+            });
+        }
+    }));
+
+    if (realmConstructor.Sync) {
+        var userMethods = require(457             ); // 457 = ./user-methods
+        Object.defineProperties(realmConstructor.Sync.User, getOwnPropertyDescriptors(userMethods.static));
+        Object.defineProperties(realmConstructor.Sync.User.prototype, getOwnPropertyDescriptors(userMethods.instance));
+        Object.defineProperty(realmConstructor.Sync.User, '_realmConstructor', { value: realmConstructor });
+
+        realmConstructor.Sync.AuthError = require(458       ).AuthError; // 458 = ./errors
+
+        if (realmConstructor.Sync.removeAllListeners) {
+            process.on('exit', realmConstructor.Sync.removeAllListeners);
+            process.on('SIGINT', function () {
+                realmConstructor.Sync.removeAllListeners();
+                process.exit(2);
+            });
+            process.on('uncaughtException', function (e) {
+                realmConstructor.Sync.removeAllListeners();
+
+                console.log(e.stack);
+                process.exit(99);
+            });
+        }
+
+        setConstructorOnPrototype(realmConstructor.Sync.User);
+        setConstructorOnPrototype(realmConstructor.Sync.Session);
+
+        if (realmConstructor.Sync._setFeatureToken) {
+            realmConstructor.Sync.setFeatureToken = function (featureToken) {
+                if (typeof featureToken !== 'string' && !(featureToken instanceof String)) {
+                    throw new Error("featureToken should be a string");
+                }
+
+                realmConstructor.Sync._setFeatureToken(featureToken.trim());
+            };
+        }
+
+        realmConstructor.prototype.subscribeToObjects = function (objectType, query) {
+            var realm = this;
+            var promise = new Promise(function (resolve, reject) {
+                realm._subscribeToObjects(objectType, query, function (err, results) {
+                    if (err) {
+                        reject(err);
+                    } else {
+                        resolve(results);
+                    }
+                });
+            });
+            return promise;
+        };
+    }
+
+    var types = Object.freeze({
+        'BOOL': 'bool',
+        'INT': 'int',
+        'FLOAT': 'float',
+        'DOUBLE': 'double',
+        'STRING': 'string',
+        'DATE': 'date',
+        'DATA': 'data',
+        'OBJECT': 'object',
+        'LIST': 'list'
+    });
+    Object.defineProperty(realmConstructor, 'Types', {
+        get: function get() {
+            if (typeof console != 'undefined') {
+                var stack = new Error().stack.split("\n").slice(2).join("\n");
+                var msg = '`Realm.Types` is deprecated! Please specify the type name as lowercase string instead!\n' + stack;
+                if (console.warn != undefined) {
+                    console.warn(msg);
+                } else {
+                    console.log(msg);
+                }
+            }
+            return types;
+        },
+        configurable: true
+    });
+};
+}, 464, null, "realm/lib/extensions.js");
+__d(/* realm/lib/collection-methods.js */function(global, require, module, exports) {
+
+'use strict';
+
+var arrayPrototype = Array.prototype;
+
+var iteratorPrototype = {};
+
+Object.defineProperty(iteratorPrototype, typeof Symbol === 'function' ? Symbol.iterator : '@@iterator', {
+    value: function () {
+        return this;
+    }
+});
+
+['toString', 'toLocaleString', 'concat', 'join', 'slice', 'lastIndexOf', 'every', 'some', 'forEach', 'find', 'findIndex', 'map', 'filter', 'reduce', 'reduceRight'].forEach(function (methodName) {
+    var method = arrayPrototype[methodName];
+    if (method) {
+        exports[methodName] = { value: method, configurable: true, writable: true };
+    }
+});
+
+['entries', 'keys', 'values'].forEach(function (methodName) {
+    var method = function method() {
+        var self = this.snapshot();
+        var index = 0;
+
+        return Object.create(iteratorPrototype, {
+            next: {
+                value: function value() {
+                    if (!self || index >= self.length) {
+                        self = null;
+                        return { done: true, value: undefined };
+                    }
+
+                    var value;
+                    switch (methodName) {
+                        case 'entries':
+                            value = [index, self[index]];
+                            break;
+                        case 'keys':
+                            value = index;
+                            break;
+                        default:
+                            value = self[index];
+                    }
+
+                    index++;
+                    return { done: false, value: value };
+                }
+            }
+        });
+    };
+
+    exports[methodName] = { value: method, configurable: true, writable: true };
+});
+
+exports[typeof Symbol === 'function' ? Symbol.iterator : '@@iterator'] = exports.values;
+}, 465, null, "realm/lib/collection-methods.js");
+__d(/* ExerciseProject/src/11_api/DimensionsDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\11_api\\DimensionsDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var DimensionsDemo = function (_Component) {
+    babelHelpers.inherits(DimensionsDemo, _Component);
+
+    function DimensionsDemo() {
+        babelHelpers.classCallCheck(this, DimensionsDemo);
+        return babelHelpers.possibleConstructorReturn(this, (DimensionsDemo.__proto__ || Object.getPrototypeOf(DimensionsDemo)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(DimensionsDemo, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 12
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: styles.content, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 13
+                        }
+                    },
+                    'width:',
+                    _reactNative.Dimensions.get('window').width
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: styles.content, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 16
+                        }
+                    },
+                    'height:',
+                    _reactNative.Dimensions.get('window').height
+                )
+            );
+        }
+    }]);
+    return DimensionsDemo;
+}(_react.Component);
+
+exports.default = DimensionsDemo;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#F5FCFF'
+    },
+    content: {
+        textAlign: 'center',
+        color: '#333333',
+        marginBottom: 5
+    }
+});
+}, 466, null, "ExerciseProject/src/11_api/DimensionsDemo.js");
+__d(/* ExerciseProject/src/11_api/PixelRatioDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\11_api\\PixelRatioDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var PixelRatioDemo = function (_Component) {
+    babelHelpers.inherits(PixelRatioDemo, _Component);
+
+    function PixelRatioDemo() {
+        babelHelpers.classCallCheck(this, PixelRatioDemo);
+        return babelHelpers.possibleConstructorReturn(this, (PixelRatioDemo.__proto__ || Object.getPrototypeOf(PixelRatioDemo)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(PixelRatioDemo, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.View,
+                { style: styles.container, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 12
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: styles.content, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 13
+                        }
+                    },
+                    'pxielRatio=',
+                    _reactNative.PixelRatio.get()
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: styles.content, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 16
+                        }
+                    },
+                    _reactNative.PixelRatio.getPixelSizeForLayoutSize(200)
+                ),
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: styles.content, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 19
+                        }
+                    },
+                    200 * _reactNative.PixelRatio.get()
+                )
+            );
+        }
+    }]);
+    return PixelRatioDemo;
+}(_react.Component);
+
+exports.default = PixelRatioDemo;
+
+
+var styles = _reactNative.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#F5FCFF'
+    },
+    content: {
+        textAlign: 'center',
+        color: '#333333',
+        marginBottom: 5
+    }
+});
+}, 467, null, "ExerciseProject/src/11_api/PixelRatioDemo.js");
+__d(/* ExerciseProject/src/11_api/AlertDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\11_api\\AlertDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var AlertDemo = function (_Component) {
+    babelHelpers.inherits(AlertDemo, _Component);
+
+    function AlertDemo() {
+        babelHelpers.classCallCheck(this, AlertDemo);
+        return babelHelpers.possibleConstructorReturn(this, (AlertDemo.__proto__ || Object.getPrototypeOf(AlertDemo)).apply(this, arguments));
+    }
+
+    babelHelpers.createClass(AlertDemo, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.View,
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 16
+                    }
+                },
+                _react2.default.createElement(
+                    _reactNative.Text,
+                    { style: { height: 30, color: 'black', margin: 8 }, __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 17
+                        }
+                    },
+                    '\u5F39\u51FA\u6846\u5B9E\u4F8B'
+                ),
+                _react2.default.createElement(_reactNative.Button, { title: '\u70B9\u51FB\u5F39\u51FA\u9ED8\u8BA4Alert',
+                    onPress: function onPress() {
+                        return _reactNative.Alert.alert('温馨提醒', '确定退出吗?');
+                    },
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 20
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Button, { title: '\u70B9\u51FB\u5F39\u51FA\u4E24\u4E2A\u6309\u94AE\u7684Alert',
+                    onPress: function onPress() {
+                        return _reactNative.Alert.alert('温馨提醒', '确定退出吗?', [{ text: '取消', onPress: function onPress() {
+                                return _reactNative.ToastAndroid.show('你点击了取消~', _reactNative.ToastAndroid.SHORT);
+                            } }, { text: '确定', onPress: function onPress() {
+                                return _reactNative.ToastAndroid.show('你点击了确定~', _reactNative.ToastAndroid.SHORT);
+                            } }]);
+                    },
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 23
+                    }
+                }),
+                _react2.default.createElement(_reactNative.Button, { title: '\u70B9\u51FB\u5F39\u51FA\u4E09\u4E2A\u6309\u94AE\u7684Alert',
+                    onPress: function onPress() {
+                        return _reactNative.Alert.alert('温馨提醒', '确定退出吗?', [{ text: 'One', onPress: function onPress() {
+                                return _reactNative.ToastAndroid.show('你点击了One~', _reactNative.ToastAndroid.SHORT);
+                            } }, { text: 'Two', onPress: function onPress() {
+                                return _reactNative.ToastAndroid.show('你点击了Two~', _reactNative.ToastAndroid.SHORT);
+                            } }, { text: 'Three', onPress: function onPress() {
+                                return _reactNative.ToastAndroid.show('你点击了Three~', _reactNative.ToastAndroid.SHORT);
+                            } }]);
+                    },
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 29
+                    }
+                })
+            );
+        }
+    }]);
+    return AlertDemo;
+}(_react.Component);
+
+exports.default = AlertDemo;
+}, 468, null, "ExerciseProject/src/11_api/AlertDemo.js");
+__d(/* ExerciseProject/src/11_api/AppStateDemo.js */function(global, require, module, exports) {Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _jsxFileName = 'D:\\software\\RNProject\\ExerciseProject\\src\\11_api\\AppStateDemo.js';
+
+var _react = require(13     ); // 13 = react
+
+var _react2 = babelHelpers.interopRequireDefault(_react);
+
+var _reactNative = require(27            ); // 27 = react-native
+
+var AppStateDemo = function (_Component) {
+    babelHelpers.inherits(AppStateDemo, _Component);
+
+    function AppStateDemo(props) {
+        babelHelpers.classCallCheck(this, AppStateDemo);
+
+        var _this = babelHelpers.possibleConstructorReturn(this, (AppStateDemo.__proto__ || Object.getPrototypeOf(AppStateDemo)).call(this, props));
+
+        _this._handleAppStateChange = function (appState) {
+            console.log('当前状态为:' + appState);
+            if (_this.state.currentAppState.match(/inactive|background/) && appState === 'active') {
+                console.log('App has come to the foreground!');
+            }
+            _this.setState({ currentAppState: appState });
+        };
+
+        _this.state = {
+            currentAppState: _reactNative.AppState.currentState
+        };
+        return _this;
+    }
+
+    babelHelpers.createClass(AppStateDemo, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            _reactNative.AppState.addEventListener('change', this._handleAppStateChange);
+        }
+    }, {
+        key: 'componentWillUnmount',
+        value: function componentWillUnmount() {
+            _reactNative.AppState.removeEventListener('change', this._handleAppStateChange);
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                _reactNative.Text,
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 31
+                    }
+                },
+                'Current state is: ',
+                this.state.currentAppState
+            );
+        }
+    }]);
+    return AppStateDemo;
+}(_react.Component);
+
+exports.default = AppStateDemo;
+}, 469, null, "ExerciseProject/src/11_api/AppStateDemo.js");
 ;require(76);
 ;require(0);
 //# sourceMappingURL=index.android.map

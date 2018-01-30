@@ -26,7 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new SQLitePluginPackage(),   // register SQLite Plugin here
           new MainReactPackage(),
-            new RealmReactPackage()
+          new RealmReactPackage(),
+          new ToastModulePackage()
       );
     }
   };
