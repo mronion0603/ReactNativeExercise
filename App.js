@@ -70,10 +70,12 @@ import AlertIOSDemo from "./src/11_api/AlertIOSDemo";
 import AlertModalDemo from "./src/11_api/AlertModalDemo";
 
 import ToastModuleAndroidDemo from "./src/12_nativeapi/ToastModuleAndroidDemo";
+import HelloWorldIOSDemo from "./src/12_nativeapi/HelloWorldIOSDemo";
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <ToastModuleAndroidDemo />
+            <HelloWorldIOSDemo />
         );
     }
 }
