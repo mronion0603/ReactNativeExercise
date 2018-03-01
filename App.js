@@ -72,10 +72,14 @@ import AlertModalDemo from "./src/11_api/AlertModalDemo";
 import ToastModuleAndroidDemo from "./src/12_nativeapi/ToastModuleAndroidDemo";
 import HelloWorldIOSDemo from "./src/12_nativeapi/HelloWorldIOSDemo";
 
+import FrameAnimationDemo from "./src/13_animation/FrameAnimationDemo";
+
+
+
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <HelloWorldIOSDemo />
+            <FrameAnimationDemo />
         );
     }
 }
