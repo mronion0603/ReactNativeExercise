@@ -73,13 +73,14 @@ import ToastModuleAndroidDemo from "./src/12_nativeapi/ToastModuleAndroidDemo";
 import HelloWorldIOSDemo from "./src/12_nativeapi/HelloWorldIOSDemo";
 
 import FrameAnimationDemo from "./src/13_animation/FrameAnimationDemo";
+import LayoutAnimationDemo from "./src/13_animation/LayoutAnimationDemo";
 
 
 
 export default class ExerciseProject extends Component {
     render() {
         return (
-            <FrameAnimationDemo />
+            <LayoutAnimationDemo />
         );
     }
 }
